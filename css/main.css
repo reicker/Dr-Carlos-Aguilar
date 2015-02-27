@@ -18,6 +18,14 @@ a:hover {
   color: #4b52a2 !important;
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2a307c !important;
+}
 .azul {
   color: #2a307c;
 }
@@ -30,6 +38,17 @@ a:hover {
 .activo {
   border: solid 2px #2a307c;
   padding: 2px 5px;
+}
+.botonInfo {
+  border: solid 2px #2a307c;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+.botonInfoAz {
+  background: #2a307c;
+  padding: 13px 20px;
+  color: white !important;
+  border-radius: 3px;
 }
 header {
   position: fixed;
@@ -84,5 +103,38 @@ footer a:hover {
 ------------------------------ */
 #quote {
   margin-top: 50px;
+  margin-bottom: 30px;
+}
+#infoIndex {
+  margin-top: 50px;
   margin-bottom: 50px;
+}
+#infoIndex h3 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#datosT {
+  background: #2a307c;
+  color: white !important;
+}
+#datosT h3 {
+  color: white !important;
+  margin-top: 5px;
+}
+#datos {
+  background: url(../img/playa.jpg) no-repeat center top;
+  margin-bottom: 50px;
+  height: 350px;
+  padding: 20px 0;
+  border-bottom: 6px solid #2a307c;
+}
+#datos img {
+  margin-top: 15%;
+}
+.datosText {
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+  margin-top: 15%;
 }
