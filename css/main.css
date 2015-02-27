@@ -80,7 +80,7 @@ footer {
   background: #4b52a2;
   padding: 20px 0;
   color: white;
-  margin-top: 50px;
+  font-weight: 300;
 }
 footer #logoFooter {
   margin-top: 10px;
@@ -90,6 +90,10 @@ footer a {
 }
 footer a:hover {
   color: #2a307c !important;
+}
+footer h3,
+footer h4 {
+  color: white !important;
 }
 #copyrights {
   color: white;
@@ -116,6 +120,7 @@ footer a:hover {
 }
 #datosT {
   background: #2a307c;
+  margin-top: 30px;
   color: white !important;
 }
 #datosT h3 {
@@ -149,3 +154,28 @@ footer a:hover {
   background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
 }
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #menu li {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  #menu li a {
+    font-weight: 500;
+    color: #2a307c !important;
+  }
+  #menu li a:hover {
+    color: #2a307c !important;
+    border-bottom: 2px solid #2a307c;
+  }
+  footer h3 {
+    font-size: 18px !important;
+  }
+  footer a {
+    font-size: 12px;
+  }
+}
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */

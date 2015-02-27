@@ -86,7 +86,7 @@ footer {
 	background: @azul2;
 	padding: 20px 0;
 	color: white;
-	margin-top: 50px;
+	font-weight: 300;
 	#logoFooter{
 		margin-top: 10px;
 	}
@@ -95,6 +95,9 @@ footer {
 		&:hover {
 			color: @azul1 !important;
 		}
+	}
+	h3, h4 {
+		color: white !important;
 	}
 }
 #copyrights {
@@ -125,6 +128,7 @@ footer {
 
 #datosT {
 	background: @azul1;
+	margin-top: 30px;
 	color: white !important;
 	h3{
 		color: white !important;
@@ -163,3 +167,53 @@ footer {
 
 
 
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#menu {
+		li {
+			font-size: 14px;
+			margin-left: 5px;
+			a {
+				font-weight: 500;
+				color: @azul1 !important;
+				&:hover {
+					color: @azul1 !important;
+					border-bottom: 2px solid @azul1;
+	
+				}
+			}
+		}
+	}
+	footer{
+		h3{
+			font-size: 18px !important;
+		}
+		a {
+			font-size: 12px;
+		}
+	}	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
