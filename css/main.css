@@ -154,18 +154,10 @@ footer h4 {
   background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
 }
-<<<<<<< HEAD
 #datosEnfermedades {
-  background: url(../img/banner-enfermedades.jpg) no-repeat center top;
-  margin-bottom: 50px;
-  height: 350px;
-  padding: 20px 0;
-  border-bottom: 6px solid #2a307c;
+  background-image: url(../img/banner-enfermedades.jpg);
+  width: 100%;
 }
-#datosEnfermedades img {
-  margin-top: 15%;
-}
-=======
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -191,4 +183,3 @@ footer h4 {
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
->>>>>>> origin/master
