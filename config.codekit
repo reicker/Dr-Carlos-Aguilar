@@ -64,7 +64,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/elements.less",
 		"outputAbbreviatedPath": "\/css\/elements.css",
@@ -106,6 +106,26 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/drcarlosaguilar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/drcarlosaguilar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/bg-drcarlosaguilar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200802,
+		"inputAbbreviatedPath": "\/img\/bg-drcarlosaguilar.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-drcarlosaguilar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/datos01.png": {
 		"fileType": 32768,
@@ -262,7 +282,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Ray",
+"lastSavedByUser": "spoiler",
 "manualImportLinks": {
 	},
 "projectAttributes": {
