@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="css/jquery.remodal.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -67,9 +68,19 @@
 					<h3>Trombosis</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec</p>
 				</div>
-				<div class="col-md-12 text-center" style="margin-bottom: 40px; margin-top: 30px;">
-					<a href="" class="botonInfoAz">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
+				<div class="col-md-12 text-center remodal-bg" style="margin-bottom: 40px; margin-top: 30px;">
+					<a class=" show_button botonInfoAz" href="#show">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
 				</div>
+				<div class="remodal" data-remodal-id="show">
+    <h1>Remodal</h1>
+    <p>
+      Flat, responsive, lightweight, fast, easy customizable modal window plugin
+      with declarative state notation and hash tracking.
+    </p>
+    <br>
+    <a class="remodal-cancel" href="#">Cancel</a>
+    <a class="remodal-confirm" href="#">OK</a>
+	</div>
 			</div>
 		
 		</div> 
@@ -82,18 +93,17 @@
 de enfermedades cardiovasculares</h1>
     		</div>
     	</div>
-    	
     	<div class="row text-center">
 	    		<div class="col-md-8 col-md-offset-2 text-center">
 					<h1>Enfermedades Venosas</h1>
 			  		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
 				</div>
     		<div class="col-md-3 col-sm-6">
-    			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
+    			<img src="http://placekitten.com/g/150" alt="" class="img-circle"></a>
     			<h3>Lorem Ipsum</h3>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quia excepturi harum aperiam ipsum nam!</p>
-
     		</div>
+    		
     		<div class="col-md-3 col-sm-6">
     			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
     			<h3>Lorem Ipsum</h3>
@@ -180,10 +190,19 @@ de tener algun problema articular o venoso</p>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jquery.slicknav.js"></script>
+        <script src="js/jquery.remodal.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('#menu').slicknav();
 		});
+		</script>
+		<script>
+    window.remodalGlobals = {
+        namespace: "modal",
+        defaults: {
+            hashTracking: false
+        }
+    };
 		</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
