@@ -26,30 +26,6 @@ h5,
 h6 {
   color: #2a307c !important;
 }
-.azul {
-  color: #2a307c;
-}
-.fLeft {
-  float: left;
-}
-.fRight {
-  float: right;
-}
-.activo {
-  border: solid 2px #2a307c;
-  padding: 2px 5px;
-}
-.botonInfo {
-  border: solid 2px #2a307c;
-  padding: 7px 10px;
-  border-radius: 3px;
-}
-.botonInfoAz {
-  background: #2a307c;
-  padding: 13px 20px;
-  color: white !important;
-  border-radius: 3px;
-}
 header {
   position: fixed;
   z-index: 999;
@@ -59,6 +35,19 @@ header {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
   border-top: 4px solid #2a307c;
 }
+/* menu responsive */
+.slicknav_menu {
+  display: none;
+}
+@media screen and (max-width: 40em) {
+  .js #menu {
+    display: none;
+  }
+  .js .slicknav_menu {
+    display: block;
+  }
+}
+/* -----*/
 #navTop {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -101,6 +90,40 @@ footer h4 {
   padding-top: 9px;
   font-size: 10px;
   font-weight: 100;
+}
+/* ------------------------------
+			clases
+------------------------------ */
+.mt150 {
+  margin-top: 150px;
+}
+.azul {
+  color: #2a307c;
+}
+.fLeft {
+  float: left;
+}
+.fRight {
+  float: right;
+}
+.activo {
+  border: solid 2px #2a307c;
+  padding: 2px 5px;
+}
+.botonInfo {
+  border: solid 2px #2a307c;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+.botonInfoAz {
+  background: #2a307c;
+  padding: 13px 20px;
+  color: white !important;
+  border-radius: 3px;
+}
+.drBtn {
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 /* ------------------------------
 			index
@@ -150,12 +173,31 @@ footer h4 {
   background-image: url(../img/bg-drcarlosaguilar.jpg);
   width: 100%;
 }
+#quote {
+  margin-bottom: 80px;
+}
+#quote p {
+  font-size: 18px;
+}
+/* ------------------------------
+	 enfermedades
+------------------------------ */
 #bg-enfermedades {
   background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
 }
 #datosEnfermedades {
   background-image: url(../img/banner-enfermedades.jpg);
+  width: 100%;
+}
+/* ------------------------------
+	 etapas varices
+------------------------------ */
+.nivel {
+  padding: 50px 0;
+}
+.bgEtp {
+  background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
 }
 /* Large Devices, Wide Screens */
@@ -173,6 +215,9 @@ footer h4 {
     color: #2a307c !important;
     border-bottom: 2px solid #2a307c;
   }
+  .mtEnf {
+    margin-top: 50px;
+  }
   footer h3 {
     font-size: 18px !important;
   }
@@ -181,5 +226,10 @@ footer h4 {
   }
 }
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header {
+    position: relative;
+  }
+}
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
