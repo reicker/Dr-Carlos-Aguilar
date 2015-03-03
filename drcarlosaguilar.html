@@ -12,6 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/slicknav.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -21,17 +22,19 @@
         <![endif]-->
     
     <header>
-	    <div class="container">
+
+	    <div class="container hidden-xs">
 
 	    	<div class="row">
-	    		<div class="col-md-3"><a href="index.html" target="_self"><img src="img/logo.png" alt="" class="img-responsive"></a></div>
-	    		<div class="col-md-9">
+	    		<div class="col-md-3 col-sm-3 "><a href="index.html" target="_self"><img src="img/logo.png" alt="" class="img-responsive"></a></div>
+	    		<div class="col-md-9 col-sm-9">
 		    		<ul id="navTop" class="list-inline text-right">
 		    			<li><strong>Emergencias:</strong> (33) 1234 5678</li>
 		    			<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
 		    			<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
 		    		</ul>
 	    			<nav id="menu" class="text-right">
+		    			
 	    				<ul class="list-inline">
 	    					<li><a href="index.html" target="_self">Inicio</a></li>
 	    					<li><a href="drcarlosaguilar.html" target="_self" class="activo">Sobre Mí</a></li>
@@ -44,19 +47,24 @@
 	    		</div>
 	    	</div>
 	    </div>
-    </header>
+	</header>
 		
 	<div id="bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center" style="margin-top: 200px;"> 
+				<div class="col-md-4 col-xs-4 col-xs-offset-4 visible-xs text-center">
+					<img src="img/logo.png" alt="" class="img-responsive">
+				</div>
+				<div class="col-md-8 col-md-offset-2 text-center mt150" style="margin-bottom: 50px;"> 
 			  		<h1>Calidad y vida en tus piernas</h1>
 			  		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
 				</div>
-				<div class="col-md-4 col-sm-4">
+			</div>
+			<div class="row">	
+				<div class="col-md-4 col-sm-4 col-xs-4">
 					<img src="http://placekitten.com/g/348/523" class="img-responsive">
 				</div>
-				<div class="col-md-8 col-sm-8">
+				<div class="col-md-8 col-sm-8 col-sm-8 ">
 					<h2 class="text-center">Dr. Carlos Aguilar</h2>
 					<p class="text-center">Director Médico</p>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo:</p>
@@ -68,6 +76,7 @@
 					<h3>Experiencia</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo:</p>
 				</div>
+
 			</div>
 		</div>
     </div>
@@ -80,31 +89,38 @@
     		</div>
     	</div>
     	<div class="row text-center">
-    		<div class="col-md-3 col-sm-6">
+    		<div class="col-md-3 col-sm-6 mtEnf">
     			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
     			<h3>Lorem Ipsum</h3>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quia excepturi harum aperiam ipsum nam!</p>
+    			<br>	
     			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
-    		<div class="col-md-3 col-sm-6">
+    		<div class="col-md-3 col-sm-6 mtEnf">
     			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
     			<h3>Lorem Ipsum</h3>
     			<p>Consequatur, inventore, quas possimus nemo minima quam nulla voluptatem ab deleniti ipsa! Molestiae, accusantium</p>
+    			<br>	
     			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
-    		<div class="col-md-3 col-sm-6">
+    		<div class="col-md-3 col-sm-6 mtEnf">
     			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
     			<h3>Lorem Ipsum</h3>
-    			<p>Itaque eaque sequi provident rerum reprehenderit asperiores temporibus quaerat aperiam. Enim, quibusdam nostrum</p>
+    			<p>Itaque eaque sequi provident rerum reprehenderit asperiores temporibus quaerat aperiam. Enim, quibusdam</p>
+    			<br>	
     			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
-    		<div class="col-md-3 col-sm-6">
+    		<div class="col-md-3 col-sm-6 mtEnf">
     			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
     			<h3>Lorem Ipsum</h3>
     			<p>Minima, numquam nesciunt magni consequatur totam sit ullam aliquam aut magnam. Ad iure quidem reiciendis.</p>
+    			<br>	
     			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
-    		<div class="col-md-12" style="margin-top: 40px;">
+    		
+    	</div>
+    	<div class="row">	
+	    	<div class="col-md-12 drBtn text-center" >
     		<a href="" class="botonInfoAz">Contactar al Dr. Carlos Aguilar <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
     		</div>
     	</div>
@@ -113,8 +129,8 @@
     <footer>
     	<div class="container">
     		<div class="row">
-    			<div id="logoFooter" class="col-md-3"><img src="img/logoFooter.png" alt="" class="img-responsive"></div>
-    			<div class="col-md-2">
+    			<div id="logoFooter" class="col-md-3 col-sm-6"><img src="img/logoFooter.png" alt="" class="img-responsive"></div>
+    			<div class="col-md-2 col-sm-6">
     				<h4>Menú</h4>
     				<ul class="list-unstyled">
     					<li><a href="index.html" target="_self">Inicio</a></li>
@@ -124,12 +140,12 @@
     					<li><a href="contacto.html" target="_self">Contacto</a></li>
     				</ul>
     			</div>
-    			<div class="col-md-4">
+    			<div class="col-md-4 col-sm-6">
     				<h4>Blog</h4>
     				<p>Si quieres conocer más acerca de los mejores tips, cuidados y tratamientos para cuidar tus piernas solo tienes que</p>
     				<a href="/blog/" class="botonInfoWh">visitar blog <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     			</div>
-    			<div class="col-md-3">
+    			<div class="col-md-3 col-sm-6">
     				<h4>Contactanos</h4>
     				<h3><span class="glyphicon glyphicon-phone fLeft" aria-hidden="true"></span> 33 1234 5678</h3> <br>
     				<a href="mailto:contacto@drcarlogaguilar.mx"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contacto@drcarlogaguilar.mx</a>
@@ -149,8 +165,13 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
-
         <script src="js/main.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menu').slicknav();
+		});
+		</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

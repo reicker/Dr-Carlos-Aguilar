@@ -9,6 +9,8 @@
 @radius: 3px;
 
 
+
+
 /* ------------------------------
 			Generales
 ------------------------------ */
@@ -28,30 +30,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	color: @azul1 !important;
 }
-.azul {
-	color: @azul1;
-}
-.fLeft {
-	float: left;
-}
-.fRight {
-	float: right;
-}
-.activo {
-	border: solid 2px @azul1;
-	padding: 2px 5px;
-}
-.botonInfo {
-	border: solid 2px @azul1;
-	padding: 7px 10px;
-	border-radius: @radius;
-}
-.botonInfoAz {
-	background: @azul1;
-	padding: 13px 20px;
-	color: white !important;
-	border-radius: @radius;
-}
+
 header {
 	position: fixed;
 	z-index: 999;
@@ -61,6 +40,22 @@ header {
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
 	border-top: 4px solid @azul1;
 }
+/* menu responsive */
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+/* -----*/
+
 #navTop {
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -107,6 +102,46 @@ footer {
 	font-size: 10px;
 	font-weight: 100;
 }
+
+
+
+/* ------------------------------
+			clases
+------------------------------ */
+
+.mt150 {
+	margin-top: 150px;
+}
+.azul {
+	color: @azul1;
+}
+.fLeft {
+	float: left;
+}
+.fRight {
+	float: right;
+}
+.activo {
+	border: solid 2px @azul1;
+	padding: 2px 5px;
+}
+.botonInfo {
+	border: solid 2px @azul1;
+	padding: 7px 10px;
+	border-radius: @radius;
+}
+.botonInfoAz {
+	background: @azul1;
+	padding: 13px 20px;
+	color: white !important;
+	border-radius: @radius;
+}
+.drBtn {
+	margin-top: 80px;	
+	margin-bottom: 50px;	
+	
+}
+
 /* ------------------------------
 			index
 ------------------------------ */
@@ -160,13 +195,24 @@ footer {
 	width: 100%;
 }
 
+
+#quote {
+	margin-bottom: 80px;
+	p {
+		font-size: 18px;	
+	}
+	
+}
+
+/* ------------------------------
+	 enfermedades
+------------------------------ */
 #bg-enfermedades {
 	background-image: url(../img/bg-enfermedades.jpg);
 	width: 100%;
 }
 #datosEnfermedades {
 	background: url(../img/banner-enfermedades.jpg) no-repeat center top;
-	margin-bottom: 50px;
 	height: 350px;
 	padding: 20px 0;
 	border-bottom: 6px solid @azul1;
@@ -177,6 +223,17 @@ footer {
 
 
 
+/* ------------------------------
+	 etapas varices
+------------------------------ */
+.nivel {
+	padding: 50px 0;	
+}
+
+.bgEtp {
+	background-image: url(../img/bg-enfermedades.jpg);
+	width: 100%;
+}
 
 
 
@@ -202,6 +259,9 @@ footer {
 			}
 		}
 	}
+	.mtEnf {
+		margin-top: 50px;	
+	}
 	footer{
 		h3{
 			font-size: 18px !important;
@@ -209,11 +269,14 @@ footer {
 		a {
 			font-size: 12px;
 		}
-	}	
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	header {
+		position: relative;
+	}
 
 }
 

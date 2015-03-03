@@ -78,44 +78,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/main.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.less",
-		"outputAbbreviatedPath": "\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/drcarlosaguilar.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/drcarlosaguilar.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/bg-drcarlosaguilar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -123,6 +85,17 @@
 		"initialSize": 200802,
 		"inputAbbreviatedPath": "\/img\/bg-drcarlosaguilar.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-drcarlosaguilar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-enfermedades.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230812,
+		"inputAbbreviatedPath": "\/img\/bg-enfermedades.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-enfermedades.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -167,6 +140,17 @@
 		"initialSize": 25060,
 		"inputAbbreviatedPath": "\/img\/logoFooter.png",
 		"outputAbbreviatedPath": "\/img\/logoFooter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 801732,
+		"inputAbbreviatedPath": "\/img\/playa.jpg",
+		"outputAbbreviatedPath": "\/img\/playa.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -282,7 +266,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "spoiler",
+"lastSavedByUser": "Ray",
 "manualImportLinks": {
 	},
 "projectAttributes": {
