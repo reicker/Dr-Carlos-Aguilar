@@ -1,0 +1,125 @@
+
+
+.star-ratings,
+.star-rating,
+.stars-rating {
+	max-height: none;
+
+	.dashicons {
+		width: auto;
+		height: auto;
+		line-height: normal;
+		font-size: inherit;
+		vertical-align: middle;
+
+		&:before {
+			@extend .ionicon;
+			font-size: 16px;
+		}
+
+		&.dashicons-star-filled:before,
+		&.dashicons-star-empty:before {
+			content: "\f1e0";
+		}
+
+		&.dashicons-star-empty:before {
+			color: #CCC;
+		}
+	}
+}
+
+.stars-rating {
+	display: inline-block;
+	margin-top: -3px;
+
+	.dashicons.dashicons-star-empty:before {
+		content: "\f1e0";
+	}
+}
+
+.content-single-job_listing-hero-inner .job_listing-rating-stars .stars-rating .dashicons {
+	&.dashicons-star-empty:before {
+		content: "\f1df";
+	}
+
+	&:before {
+		font-size: 24px;
+	}
+}
+
+.content-single-job_listing-hero.has-image .content-single-job_listing-hero-inner .job_listing-rating-stars .stars-rating .dashicons:before {
+	color: #fff;
+}
+
+.comment-content .comment-rating {
+	display: none;
+	float: left;
+	margin-right: 2em;
+	margin-top: 3px;
+}
+
+	@include bp(sm) {
+		.comment-content .comment-rating {
+			display: block;
+		}
+	}
+
+#wpjmr-submit-ratings {
+	margin-bottom: 24px;
+
+	label {
+		font-size: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		min-width: 150px;
+	}
+
+	.choose-rating {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+
+		.star {
+			margin-right: 2px;
+			&:before {
+				font-size: 20px;
+			}
+
+			&:hover::before,
+			&:hover ~ .star::before,
+			&.active::before,
+			&.active ~ .star::before {
+				content: "\f1e0";
+			}
+		}
+	}
+}
+
+.commentlist #wpjmr-submit-ratings {
+	display: none;
+}
+
+#wpjmr-list-reviews {
+	float: none;
+	padding-left: 0;
+	margin-bottom: 1em;
+
+	.star-rating {
+		text-align: left;
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	@include bp(sm) {
+		.star-rating-title {
+			line-height: 1;
+			margin-bottom: 0.4em;
+		}
+
+		.star-rating {
+			display: inline-block;
+			margin-right: 2em;
+			margin-bottom: 0;
+		}
+	}
+}

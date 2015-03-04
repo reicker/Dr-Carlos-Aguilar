@@ -1,0 +1,19 @@
+.shop_table {
+	td {
+		vertical-align: top;
+	}
+
+	.product-thumbnail {
+		width: 70px;
+
+		img {
+			width: 50px;
+			height: 50px;
+		}
+	}
+
+	.variation,
+	.variation-BookingDate {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,33 @@
+.job-manager-uploaded-files {
+	.job-manager-uploaded-file {
+		display: inline-block;
+		margin: 0 10px 40px 0;
+		position: relative;
+		vertical-align: top;
+	}
+
+	.job-manager-uploaded-file-preview {
+		img {
+			max-width: 100px;
+		}
+	}
+
+	.job-manager-uploaded-file-name {
+		position: absolute;
+		bottom: -18px;
+		left: 0;
+		font-size: 0;
+
+		code {
+			font-size: 0;
+		}
+
+		a:before {
+			@extend .ionicon;
+			color: #555;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, .50);
+			font-size: 12px;
+			content: '\f129';
+		}
+	}
+}
