@@ -1,0 +1,3569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Listify (shared on wplocker.com) v1.0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-04 01:13:59+0000\n"
+"Last-Translator: admin <contacto@drcarlosaguilar.mx>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:12
+#@ listify
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! La pagina no se encontró"
+
+#: archive.php:22
+#, php-format
+#@ listify
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:25
+#, php-format
+#@ listify
+msgid "Day: %s"
+msgstr "Días: %s"
+
+#: archive.php:28
+#, php-format
+#@ listify
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:28
+#@ listify
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+#@ listify
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: archive.php:31
+#@ listify
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:34
+#@ listify
+msgid "Asides"
+msgstr "Laterales"
+
+#: archive.php:37
+#@ listify
+msgid "Galleries"
+msgstr "Galerías"
+
+#: archive.php:40
+#@ listify
+msgid "Images"
+msgstr "Imagenes"
+
+#: archive.php:43
+#@ listify
+msgid "Videos"
+msgstr ""
+
+#: archive.php:46
+#@ listify
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:49
+#@ listify
+msgid "Links"
+msgstr ""
+
+#: archive.php:52
+#@ listify
+msgid "Statuses"
+msgstr "Estatus"
+
+#: archive.php:55
+#@ listify
+msgid "Audios"
+msgstr ""
+
+#: archive.php:58
+#@ listify
+msgid "Chats"
+msgstr ""
+
+#: archive.php:61
+#: sidebar.php:16
+#@ listify
+msgid "Archives"
+msgstr "Archivos"
+
+#: author.php:35
+#, php-format
+#@ listify
+msgid "%d Listing Created"
+msgid_plural "%d Listings Created"
+msgstr[0] "%d Listado Creado"
+msgstr[1] "%d Listados Creados"
+
+#: author.php:43
+#: inc/integrations/wp-job-manager-bookmarks/class-wp-job-manager-bookmarks.php:44
+#, php-format
+#@ listify
+msgid "%d Favorite"
+msgid_plural "%d Favorites"
+msgstr[0] "%d Favorito"
+msgstr[1] "%d Favoritos"
+
+#: author.php:61
+#@ listify
+msgid "About Me"
+msgstr "Sobre Mi"
+
+#: author.php:73
+#, php-format
+#@ listify
+msgid "%s's Listings (%d)"
+msgstr ""
+
+#: author.php:118
+#, php-format
+#@ listify
+msgid ""
+"%s's\n"
+"\t\t\t\t\t\tFavorites (%d)"
+msgstr ""
+"%s's\n"
+"\\\t\\\t\\\t\\\t\\\t\\\tFavoritos (%d)"
+
+#: author.php:155
+#@ listify
+msgid "Recent Blog Posts"
+msgstr "Post recientes"
+
+#: author.php:174
+#: inc/integrations/woocommerce/class-woocommerce.php:101
+#@ listify
+msgid "Social Profiles"
+msgstr "Perfiles sociales"
+
+#: comments.php:26
+#@ listify
+msgid "Sort By"
+msgstr "Acomodar por"
+
+#: comments.php:48
+#@ listify
+msgid "Comment navigation"
+msgstr "Navegación de comentario"
+
+#: comments.php:49
+#@ listify
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios antiguos"
+
+#: comments.php:50
+#@ listify
+msgid "Newer Comments &rarr;"
+msgstr "Nuevos comentarios &rarr;"
+
+#: comments.php:60
+#@ listify
+msgid "Comments are closed."
+msgstr "Los comentarios se han cerrado"
+
+#: comments.php:66
+#@ listify
+msgid "Publish Review"
+msgstr "Publicar reseña"
+
+#: comments.php:66
+#: comments.php:71
+#@ listify
+msgid "Publish Reply"
+msgstr "Publicar respuesta"
+
+#: comments.php:72
+#: comments.php:76
+#@ listify
+msgid "Leave a Reply"
+msgstr "Deja un comentario"
+
+#: comments.php:76
+#@ listify
+msgid "Leave a Review"
+msgstr "Dejar una reseña"
+
+#: content-job_listing-attachment.php:13
+#@ listify
+msgid "View Image"
+msgstr "Ver imagen"
+
+#: content-job_listing-attachment.php:16
+#: content.php:42
+#@ listify
+msgid "0 Comments"
+msgstr "0 Comentarios"
+
+#: content-job_listing-attachment.php:16
+#: content.php:42
+#@ listify
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: content-job_listing-attachment.php:16
+#: content.php:42
+#@ listify
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: content-no-jobs-found.php:11
+#, php-format
+#@ listify
+msgid "Perhaps try revising your search or <a href=\"%s\">create a listing</a> instead!</li>"
+msgstr ""
+
+#: content-none.php:15
+#, php-format
+#@ listify
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primer post? <a href=\"%1$s\">Inicia aquí</a>."
+
+#: content-none.php:19
+#@ listify
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada acertó a tus términos de búsqueda. Por favor intenta nuevamente con diferentes palabras."
+
+#: content-none.php:24
+#@ listify
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que está buscando. Quizás buscar pueda ayudar."
+
+#: content-single-job_listing-gallery-overview.php:27
+#@ listify
+msgid "No images found. Why not add your own?"
+msgstr "No se encontraron imágenes. ¿Por que no añadir las tuyas?"
+
+#: content-single-job_listing.php:57
+#@ listify
+msgid "Listing Location"
+msgstr ""
+
+#: content-single-job_listing.php:70
+#: inc/class-page-settings.php:56
+#: inc/class-strings.php:258
+#@ listify
+msgid "Video"
+msgstr ""
+
+#: content-single-job_listing.php:79
+#@ listify
+msgid "Listing Description"
+msgstr ""
+
+#: content.php:66
+#@ listify
+msgid "Read More"
+msgstr "Leer más"
+
+#: functions.php:53
+#@ listify
+msgid "Primary Menu (header)"
+msgstr ""
+
+#: functions.php:54
+#@ listify
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:55
+#@ listify
+msgid "Tertiary Menu"
+msgstr ""
+
+#: functions.php:56
+#@ listify
+msgid "Social Menu (footer)"
+msgstr ""
+
+#: functions.php:102
+#@ listify
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:112
+#@ listify
+msgid "Homepage"
+msgstr ""
+
+#: functions.php:113
+#@ listify
+msgid "Widgets that appear on the \"Homepage\" Page Template"
+msgstr "Widgets que aparecen en  \"Homepage\" Page Template"
+
+#: functions.php:123
+#@ listify
+msgid "Footer Column 1 (wide)"
+msgstr ""
+
+#: functions.php:133
+#@ listify
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:143
+#@ listify
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:170
+#@ listify
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:247
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:96
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:97
+#@ listify
+msgid "Closed"
+msgstr ""
+
+#: image.php:29
+#: single-job_listing-gallery.php:18
+#, php-format
+#@ listify
+msgid "Back to %s"
+msgstr "Volver a %s"
+
+#: inc/class-navigation.php:47
+#@ listify
+msgid "Guest"
+msgstr "Invitado"
+
+#: inc/class-page-settings.php:23
+#@ listify
+msgid "Page Settings"
+msgstr ""
+
+#: inc/class-page-settings.php:37
+#@ listify
+msgid "Show tertiary navigation bar"
+msgstr ""
+
+#: inc/class-page-settings.php:41
+#@ listify
+msgid "Hero Style"
+msgstr ""
+
+#: inc/class-page-settings.php:46
+#: inc/customizer/controls/class-controls-nav.php:29
+#@ listify
+msgid "None"
+msgstr ""
+
+#: inc/class-page-settings.php:51
+#@ listify
+msgid "Featured Image"
+msgstr ""
+
+#: inc/class-page-settings.php:61
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:143
+#@ listify
+msgid "Map"
+msgstr ""
+
+#: inc/class-setup.php:17
+#@ listify
+msgid "Install Required &amp; Recommended Plugins"
+msgstr ""
+
+#: inc/class-setup.php:40
+#: inc/class-tgm-plugin-activation.php:197
+#@ listify
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-setup.php:49
+#@ listify
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/class-setup.php:52
+#@ listify
+msgid "Installing the demo content is not required to use this theme. It is simply meant to provide a way to get a feel for the theme without having to manually set up all of your own content. <strong>If you choose not to import the demo content you need to make sure you manually create all necessary page templates for your website.</strong>"
+msgstr ""
+
+#: inc/class-setup.php:53
+#@ listify
+msgid ""
+"The Listify theme package includes multiple demo content .XML files. This is what you will\n"
+"\t\t\t\t\tupload to the WordPress importer. Depending on the plugins you have activated or the intended use of your\n"
+"\t\t\t\t\twebsite you may not need to upload all .XML files."
+msgstr ""
+
+#: inc/class-setup.php:59
+#@ listify
+msgid "Begin Importing Content"
+msgstr ""
+
+#: inc/class-setup.php:68
+#@ listify
+msgid "Import Widgets"
+msgstr ""
+
+#: inc/class-setup.php:71
+#@ listify
+msgid "Importing the demo widgets is not required to use this theme. It simply allows you to quickly match the same settings found on our theme demo. If you do not import the widgets you can manually manage your widgets just like a standard WordPress widget area."
+msgstr ""
+
+#: inc/class-setup.php:74
+#@ listify
+msgid "Begin Importing Widgets"
+msgstr ""
+
+#: inc/class-setup.php:81
+#@ listify
+msgid "Setup Menus"
+msgstr ""
+
+#: inc/class-setup.php:83
+#@ listify
+msgid "Make sure you create and assign your menus to the menu locations found in the theme. This is required to use the custom mega menu dropdown, account item, and more."
+msgstr ""
+
+#: inc/class-setup.php:85
+#@ listify
+msgid "Manage Menus"
+msgstr ""
+
+#: inc/class-setup.php:99
+#@ listify
+msgid "Setup Static Homepage"
+msgstr ""
+
+#: inc/class-setup.php:101
+#@ listify
+msgid "In order to display custom widgets on your homepage you must first assign your static page in the WordPress settings. You can also set which page will display your blog posts."
+msgstr ""
+
+#: inc/class-setup.php:103
+#@ listify
+msgid "Reading Settings"
+msgstr ""
+
+#: inc/class-setup.php:111
+#@ listify
+msgid "Setup Widgets"
+msgstr ""
+
+#: inc/class-setup.php:114
+#@ listify
+msgid "Manage your widgets to control what displays on your homepage, listing pages, standard pages, and more."
+msgstr ""
+
+#: inc/class-setup.php:115
+#@ listify
+msgid "Manage Widgets"
+msgstr ""
+
+#: inc/class-setup.php:122
+#: inc/class-setup.php:125
+#@ listify
+msgid "Customize"
+msgstr ""
+
+#: inc/class-setup.php:124
+#@ listify
+msgid "Manage the appearance and behavior of various theme components with the live customizer."
+msgstr ""
+
+#: inc/class-setup.php:135
+#@ listify
+msgid "Get Involved"
+msgstr ""
+
+#: inc/class-setup.php:136
+#@ listify
+msgid "Help improve Listify by submitting a rating and helping to translate the theme to as many languages as possible!"
+msgstr ""
+
+#: inc/class-setup.php:151
+#@ listify
+msgid "Listify Setup"
+msgstr ""
+
+#: inc/class-setup.php:151
+#@ listify
+msgid "Setup Guide"
+msgstr ""
+
+#: inc/class-setup.php:270
+#@ listify
+msgid "Completed!"
+msgstr ""
+
+#: inc/class-setup.php:272
+#@ listify
+msgid "Incomplete"
+msgstr ""
+
+#: inc/class-setup.php:279
+#@ listify
+msgid "You can read more and watch helpful video tutorials below:"
+msgstr ""
+
+#: inc/class-setup.php:305
+#, php-format
+#@ listify
+msgid "Welcome to Listify %s"
+msgstr ""
+
+#: inc/class-setup.php:306
+#, php-format
+#@ listify
+msgid ""
+"The last directory you will ever buy.\n"
+"\tUse the steps below to finish setting up your new website. If you have more questions\n"
+"\tplease <a href=\"%s\">review the documentation</a>."
+msgstr ""
+
+#: inc/class-setup.php:317
+#@ listify
+msgid "Documentation"
+msgstr ""
+
+#: inc/class-setup.php:318
+#@ listify
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: inc/class-strings.php:69
+#, php-format
+#@ listify
+msgid "%s Category"
+msgstr ""
+
+#: inc/class-strings.php:70
+#: inc/class-strings.php:71
+#, php-format
+#@ listify
+msgid "%s Categories"
+msgstr ""
+
+#: inc/class-strings.php:72
+#, php-format
+#@ listify
+msgid "%s-category"
+msgstr ""
+
+#: inc/class-strings.php:74
+#: inc/class-strings.php:366
+#, php-format
+#@ listify
+msgid "%s Type"
+msgstr ""
+
+#: inc/class-strings.php:75
+#: inc/class-strings.php:76
+#, php-format
+#@ listify
+msgid "%s Types"
+msgstr ""
+
+#: inc/class-strings.php:77
+#, php-format
+#@ listify
+msgid "%s-type"
+msgstr ""
+
+#: inc/class-strings.php:79
+#, php-format
+#@ listify
+msgid ""
+"%s will be shown if within ANY\n"
+"\t\t\t\tselected category"
+msgstr ""
+
+#: inc/class-strings.php:81
+#, php-format
+#@ listify
+msgid ""
+"%s will be shown if within ALL\n"
+"\t\t\t\tselected categories"
+msgstr ""
+
+#: inc/class-strings.php:84
+#@ listify
+msgid "Contact Email"
+msgstr ""
+
+#: inc/class-strings.php:85
+#@ listify
+msgid "Contact URL"
+msgstr ""
+
+#: inc/class-strings.php:86
+#@ listify
+msgid "Contact email/URL"
+msgstr ""
+
+#: inc/class-strings.php:88
+#@ listify
+msgid "Listing filled?"
+msgstr ""
+
+#: inc/class-strings.php:90
+#@ listify
+msgid "A video about your listing"
+msgstr ""
+
+#: inc/class-strings.php:97
+#, php-format
+#@ listify
+msgid "Add a %s via the back-end"
+msgstr ""
+
+#: inc/class-strings.php:99
+#, php-format
+#@ listify
+msgid "Add a %s via the front-end"
+msgstr ""
+
+#: inc/class-strings.php:101
+#, php-format
+#@ listify
+msgid ""
+"Find out more about the\n"
+"\t\t\t\tfront-end %s submission form"
+msgstr ""
+
+#: inc/class-strings.php:103
+#, php-format
+#@ listify
+msgid "View submitted %s listings"
+msgstr ""
+
+#: inc/class-strings.php:105
+#, php-format
+#@ listify
+msgid ""
+"Add the [jobs] shortcode to a page to\n"
+"\t\t\t\tlist %s"
+msgstr ""
+
+#: inc/class-strings.php:107
+#, php-format
+#@ listify
+msgid "View the %s dashboard"
+msgstr ""
+
+#: inc/class-strings.php:109
+#, php-format
+#@ listify
+msgid ""
+"Find out more about the front-end %s\n"
+"\t\t\t\tdashboard"
+msgstr ""
+
+#: inc/class-strings.php:112
+#@ listify
+msgid "Company name"
+msgstr ""
+
+#: inc/class-strings.php:113
+#@ listify
+msgid "Company website"
+msgstr ""
+
+#: inc/class-strings.php:114
+#@ listify
+msgid "Company tagline"
+msgstr ""
+
+#: inc/class-strings.php:115
+#@ listify
+msgid "Brief description about the company"
+msgstr ""
+
+#: inc/class-strings.php:116
+#@ listify
+msgid "Company Twitter"
+msgstr ""
+
+#: inc/class-strings.php:117
+#@ listify
+msgid "Company logo"
+msgstr ""
+
+#: inc/class-strings.php:118
+#@ listify
+msgid "URL to the company logo"
+msgstr ""
+
+#: inc/class-strings.php:119
+#@ listify
+msgid "Company video"
+msgstr ""
+
+#: inc/class-strings.php:121
+#@ listify
+msgid "WP Job Manager Add-ons"
+msgstr ""
+
+#: inc/class-strings.php:122
+#@ listify
+msgid "Settings"
+msgstr ""
+
+#: inc/class-strings.php:123
+#@ listify
+msgid "Add-ons"
+msgstr ""
+
+#: inc/class-strings.php:124
+#, php-format
+#@ listify
+msgid "Approve %s"
+msgstr ""
+
+#: inc/class-strings.php:125
+#, php-format
+#@ listify
+msgid "Expire %s"
+msgstr ""
+
+#: inc/class-strings.php:126
+#, php-format
+#@ listify
+msgid "%s approved"
+msgstr ""
+
+#: inc/class-strings.php:127
+#, php-format
+#@ listify
+msgid "%s expired"
+msgstr ""
+
+#: inc/class-strings.php:128
+#@ listify
+msgid "Select category"
+msgstr ""
+
+#: inc/class-strings.php:129
+#@ listify
+msgid "Position"
+msgstr ""
+
+#: inc/class-strings.php:130
+#, php-format
+#@ listify
+msgid "%s updated. View"
+msgstr ""
+
+#: inc/class-strings.php:131
+#@ listify
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/class-strings.php:132
+#@ listify
+msgid "Custom field deleted."
+msgstr ""
+
+#: inc/class-strings.php:133
+#, php-format
+#@ listify
+msgid "%s updated."
+msgstr ""
+
+#: inc/class-strings.php:134
+#, php-format
+#@ listify
+msgid "%s restored to revision from %s"
+msgstr ""
+
+#: inc/class-strings.php:135
+#, php-format
+#@ listify
+msgid "%s published. View"
+msgstr ""
+
+#: inc/class-strings.php:136
+#, php-format
+#@ listify
+msgid "%s saved."
+msgstr ""
+
+#: inc/class-strings.php:137
+#, php-format
+#@ listify
+msgid "%s submitted. Preview"
+msgstr ""
+
+#: inc/class-strings.php:138
+#@ listify
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/class-strings.php:139
+#, php-format
+#@ listify
+msgid "%s draft updated. Preview"
+msgstr ""
+
+#: inc/class-strings.php:140
+#: inc/class-tgm-plugin-activation.php:1393
+#@ listify
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: inc/class-strings.php:141
+#@ listify
+msgid "Posted"
+msgstr ""
+
+#: inc/class-strings.php:142
+#@ listify
+msgid "Expires"
+msgstr ""
+
+#: inc/class-strings.php:143
+#@ listify
+msgid "Categories"
+msgstr ""
+
+#: inc/class-strings.php:144
+#@ listify
+msgid "Featured?"
+msgstr ""
+
+#: inc/class-strings.php:145
+#@ listify
+msgid "Filled?"
+msgstr ""
+
+#: inc/class-strings.php:146
+#: inc/class-tgm-plugin-activation.php:1394
+#@ listify
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: inc/class-strings.php:147
+#@ listify
+msgid "Actions"
+msgstr ""
+
+#: inc/class-strings.php:148
+#, php-format
+#@ listify
+msgid "ID: %d"
+msgstr ""
+
+#: inc/class-strings.php:149
+#@ listify
+msgid "M j, Y"
+msgstr ""
+
+#: inc/class-strings.php:150
+#@ listify
+msgid "by a guest"
+msgstr ""
+
+#: inc/class-strings.php:151
+#, php-format
+#@ listify
+msgid "by %s"
+msgstr ""
+
+#: inc/class-strings.php:152
+#@ listify
+msgid "Approve"
+msgstr ""
+
+#: inc/class-strings.php:153
+#@ listify
+msgid "View"
+msgstr ""
+
+#: inc/class-strings.php:154
+#@ listify
+msgid "Edit"
+msgstr ""
+
+#: inc/class-strings.php:155
+#@ listify
+msgid "Delete"
+msgstr ""
+
+#: inc/class-strings.php:156
+#@ listify
+msgid "Listings Per Page"
+msgstr ""
+
+#: inc/class-strings.php:157
+#@ listify
+msgid "How many listings should be shown per page by default?"
+msgstr ""
+
+#: inc/class-strings.php:158
+#@ listify
+msgid "Filled Positions"
+msgstr ""
+
+#: inc/class-strings.php:159
+#@ listify
+msgid "Hide filled positions"
+msgstr ""
+
+#: inc/class-strings.php:160
+#@ listify
+msgid "If enabled, filled positions will be hidden."
+msgstr ""
+
+#: inc/class-strings.php:161
+#@ listify
+msgid "Enable categories for listings"
+msgstr ""
+
+#: inc/class-strings.php:162
+#@ listify
+msgid "Multi-select Categories"
+msgstr ""
+
+#: inc/class-strings.php:163
+#@ listify
+msgid "Enable category multiselect by default"
+msgstr ""
+
+#: inc/class-strings.php:164
+#@ listify
+msgid "Category Filter Type"
+msgstr ""
+
+#: inc/class-strings.php:165
+#@ listify
+msgid "Account Required"
+msgstr ""
+
+#: inc/class-strings.php:166
+#@ listify
+msgid "Submitting listings requires an account"
+msgstr ""
+
+#: inc/class-strings.php:167
+#@ listify
+msgid "Account Creation"
+msgstr ""
+
+#: inc/class-strings.php:168
+#@ listify
+msgid "Allow account creation"
+msgstr ""
+
+#: inc/class-strings.php:169
+#@ listify
+msgid "Account Role"
+msgstr ""
+
+#: inc/class-strings.php:170
+#@ listify
+msgid "Approval Required"
+msgstr ""
+
+#: inc/class-strings.php:171
+#@ listify
+msgid "New submissions require admin approval"
+msgstr ""
+
+#: inc/class-strings.php:172
+#@ listify
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr ""
+
+#: inc/class-strings.php:173
+#@ listify
+msgid "Allow Pending Edits"
+msgstr ""
+
+#: inc/class-strings.php:174
+#@ listify
+msgid "Submissions awaiting approval can be edited"
+msgstr ""
+
+#: inc/class-strings.php:175
+#@ listify
+msgid "Listing Duration"
+msgstr ""
+
+#: inc/class-strings.php:176
+#@ listify
+msgid "Application Method"
+msgstr ""
+
+#: inc/class-strings.php:177
+#@ listify
+msgid "Choose the contact method for listings."
+msgstr ""
+
+#: inc/class-strings.php:178
+#@ listify
+msgid "Email address or website URL"
+msgstr ""
+
+#: inc/class-strings.php:179
+#@ listify
+msgid "Email addresses only"
+msgstr ""
+
+#: inc/class-strings.php:180
+#@ listify
+msgid "Website URLs only"
+msgstr ""
+
+#: inc/class-strings.php:181
+#@ listify
+msgid "Pages"
+msgstr ""
+
+#: inc/class-strings.php:182
+#@ listify
+msgid "Settings successfully saved"
+msgstr ""
+
+#: inc/class-strings.php:183
+#@ listify
+msgid "--no page--"
+msgstr ""
+
+#: inc/class-strings.php:184
+#@ listify
+msgid "Select a page…"
+msgstr ""
+
+#: inc/class-strings.php:185
+#@ listify
+msgid "Save Changes"
+msgstr ""
+
+#: inc/class-strings.php:186
+#@ listify
+msgid "Setup"
+msgstr ""
+
+#: inc/class-strings.php:187
+#@ listify
+msgid "Skip this step"
+msgstr ""
+
+#: inc/class-strings.php:188
+#@ listify
+msgid "All Done!"
+msgstr ""
+
+#: inc/class-strings.php:189
+#@ listify
+msgid "Location"
+msgstr ""
+
+#: inc/class-strings.php:190
+#@ listify
+msgid "e.g. \\'London\\'"
+msgstr ""
+
+#: inc/class-strings.php:191
+#@ listify
+msgid "Leave this blank if the location is not important"
+msgstr ""
+
+#: inc/class-strings.php:192
+#@ listify
+msgid "Application email/URL"
+msgstr ""
+
+#: inc/class-strings.php:193
+#@ listify
+msgid "URL or email which applicants use to apply"
+msgstr ""
+
+#: inc/class-strings.php:194
+#@ listify
+msgid "URL to the company video"
+msgstr ""
+
+#: inc/class-strings.php:195
+#@ listify
+msgid "Position filled?"
+msgstr ""
+
+#: inc/class-strings.php:196
+#@ listify
+msgid "Feature this listing?"
+msgstr ""
+
+#: inc/class-strings.php:197
+#@ listify
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: inc/class-strings.php:198
+#@ listify
+msgid "Posted by"
+msgstr ""
+
+#: inc/class-strings.php:199
+#, php-format
+#@ listify
+msgid "%s Data"
+msgstr ""
+
+#: inc/class-strings.php:200
+#@ listify
+msgid "Use file"
+msgstr ""
+
+#: inc/class-strings.php:201
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:269
+#@ listify
+msgid "Upload"
+msgstr ""
+
+#: inc/class-strings.php:202
+#@ listify
+msgid "Add file"
+msgstr ""
+
+#: inc/class-strings.php:203
+#@ listify
+msgid "Guest user"
+msgstr ""
+
+#: inc/class-strings.php:204
+#, php-format
+#@ listify
+msgid "Showing %s"
+msgstr ""
+
+#: inc/class-strings.php:205
+#, php-format
+#@ listify
+msgid "Showing all %s"
+msgstr ""
+
+#: inc/class-strings.php:206
+#, php-format
+#@ listify
+msgid "located in &quot;%s&quot;"
+msgstr ""
+
+#: inc/class-strings.php:207
+#@ listify
+msgid "No results found"
+msgstr ""
+
+#: inc/class-strings.php:208
+#@ listify
+msgid "Query limit reached"
+msgstr ""
+
+#: inc/class-strings.php:209
+#@ listify
+msgid "Geocoding error"
+msgstr ""
+
+#: inc/class-strings.php:210
+#@ listify
+msgid "Employer"
+msgstr ""
+
+#: inc/class-strings.php:211
+#, php-format
+#@ listify
+msgid "Search %s"
+msgstr ""
+
+#: inc/class-strings.php:212
+#, php-format
+#@ listify
+msgid "All %s"
+msgstr ""
+
+#: inc/class-strings.php:213
+#, php-format
+#@ listify
+msgid "Parent %s"
+msgstr ""
+
+#: inc/class-strings.php:214
+#, php-format
+#@ listify
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/class-strings.php:215
+#, php-format
+#@ listify
+msgid "Edit %s"
+msgstr ""
+
+#: inc/class-strings.php:216
+#, php-format
+#@ listify
+msgid "Update %s"
+msgstr ""
+
+#: inc/class-strings.php:217
+#, php-format
+#@ listify
+msgid "Add New %s"
+msgstr ""
+
+#: inc/class-strings.php:218
+#, php-format
+#@ listify
+msgid "New %s Name"
+msgstr ""
+
+#: inc/class-strings.php:219
+#@ listify
+msgid "Add New"
+msgstr ""
+
+#: inc/class-strings.php:220
+#, php-format
+#@ listify
+msgid "Add %s"
+msgstr ""
+
+#: inc/class-strings.php:221
+#, php-format
+#@ listify
+msgid "New %s"
+msgstr ""
+
+#: inc/class-strings.php:222
+#, php-format
+#@ listify
+msgid "View %s"
+msgstr ""
+
+#: inc/class-strings.php:223
+#: inc/class-strings.php:363
+#, php-format
+#@ listify
+msgid "No %s found"
+msgstr ""
+
+#: inc/class-strings.php:224
+#, php-format
+#@ listify
+msgid "No %s found in trash"
+msgstr ""
+
+#: inc/class-strings.php:225
+#, php-format
+#@ listify
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: inc/class-strings.php:226
+#@ listify
+msgid "Expired"
+msgstr ""
+
+#: inc/class-strings.php:227
+#, php-format
+#@ listify
+msgid "Expired (%s)"
+msgstr ""
+
+#: inc/class-strings.php:228
+#@ listify
+msgid "Invalid ID"
+msgstr ""
+
+#: inc/class-strings.php:229
+#@ listify
+msgid "This position has already been filled"
+msgstr ""
+
+#: inc/class-strings.php:230
+#, php-format
+#@ listify
+msgid "%s has been filled"
+msgstr ""
+
+#: inc/class-strings.php:231
+#@ listify
+msgid "This position is not filled"
+msgstr ""
+
+#: inc/class-strings.php:232
+#, php-format
+#@ listify
+msgid "%s has been marked as not filled"
+msgstr ""
+
+#: inc/class-strings.php:233
+#, php-format
+#@ listify
+msgid "%s has been deleted"
+msgstr ""
+
+#: inc/class-strings.php:234
+#: inc/customizer/class-customizer-panels.php:104
+#: inc/customizer/controls/class-controls-as-seen-on.php:17
+#: inc/customizer/controls/class-controls-call-to-action.php:21
+#: inc/customizer/controls/class-controls-markers.php:14
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:40
+#@ listify
+msgid "Title"
+msgstr ""
+
+#: inc/class-strings.php:235
+#@ listify
+msgid "Date Posted"
+msgstr ""
+
+#: inc/class-strings.php:236
+#@ listify
+msgid "Date Expires"
+msgstr ""
+
+#: inc/class-strings.php:237
+#@ listify
+msgid "Load more listings"
+msgstr ""
+
+#: inc/class-strings.php:238
+#, php-format
+#@ listify
+msgid "Recent %s"
+msgstr ""
+
+#: inc/class-strings.php:239
+#@ listify
+msgid "Keyword"
+msgstr ""
+
+#: inc/class-strings.php:240
+#@ listify
+msgid "Number of listings to show"
+msgstr ""
+
+#: inc/class-strings.php:241
+#@ listify
+msgid "Invalid listing"
+msgstr ""
+
+#: inc/class-strings.php:242
+#@ listify
+msgid "Save changes"
+msgstr ""
+
+#: inc/class-strings.php:243
+#@ listify
+msgid "Your changes have been saved."
+msgstr ""
+
+#: inc/class-strings.php:244
+#@ listify
+msgid "View →"
+msgstr ""
+
+#: inc/class-strings.php:245
+#@ listify
+msgid "Submit Details"
+msgstr ""
+
+#: inc/class-strings.php:246
+#: inc/class-strings.php:303
+#@ listify
+msgid "Preview"
+msgstr ""
+
+#: inc/class-strings.php:247
+#@ listify
+msgid "Done"
+msgstr ""
+
+#: inc/class-strings.php:248
+#@ listify
+msgid "Application email"
+msgstr ""
+
+#: inc/class-strings.php:249
+#@ listify
+msgid "you@yourdomain.com"
+msgstr ""
+
+#: inc/class-strings.php:250
+#@ listify
+msgid "Application URL"
+msgstr ""
+
+#: inc/class-strings.php:251
+#@ listify
+msgid "http://"
+msgstr ""
+
+#: inc/class-strings.php:252
+#@ listify
+msgid "Enter an email address or website URL"
+msgstr ""
+
+#: inc/class-strings.php:253
+#: inc/customizer/controls/class-controls-call-to-action.php:24
+#@ listify
+msgid "Description"
+msgstr ""
+
+#: inc/class-strings.php:254
+#@ listify
+msgid "Enter the name of the company"
+msgstr ""
+
+#: inc/class-strings.php:255
+#@ listify
+msgid "Website"
+msgstr ""
+
+#: inc/class-strings.php:256
+#@ listify
+msgid "Tagline"
+msgstr ""
+
+#: inc/class-strings.php:257
+#@ listify
+msgid "Briefly describe your company"
+msgstr ""
+
+#: inc/class-strings.php:259
+#@ listify
+msgid "A link to a video about your company"
+msgstr ""
+
+#: inc/class-strings.php:260
+#@ listify
+msgid "Twitter username"
+msgstr ""
+
+#: inc/class-strings.php:261
+#@ listify
+msgid "@yourcompany"
+msgstr ""
+
+#: inc/class-strings.php:262
+#@ listify
+msgid "Logo"
+msgstr ""
+
+#: inc/class-strings.php:263
+#, php-format
+#@ listify
+msgid "%s is a required field"
+msgstr ""
+
+#: inc/class-strings.php:264
+#, php-format
+#@ listify
+msgid "%s is invalid"
+msgstr ""
+
+#: inc/class-strings.php:265
+#@ listify
+msgid "Please enter a valid application email address"
+msgstr ""
+
+#: inc/class-strings.php:266
+#@ listify
+msgid "Please enter a valid application URL"
+msgstr ""
+
+#: inc/class-strings.php:267
+#@ listify
+msgid "Please enter a valid application email address or URL"
+msgstr ""
+
+#: inc/class-strings.php:268
+#@ listify
+msgid "Preview &rarr;"
+msgstr ""
+
+#: inc/class-strings.php:269
+#@ listify
+msgid "You must be signed in to post a new listing."
+msgstr ""
+
+#: inc/class-strings.php:270
+#@ listify
+msgid "Submit Listing →"
+msgstr ""
+
+#: inc/class-strings.php:271
+#@ listify
+msgid "&larr; Edit listing"
+msgstr ""
+
+#: inc/class-strings.php:272
+#, php-format
+#@ listify
+msgid "\\%s\\ (filetype %s) needs to be one of the following file types: %s"
+msgstr ""
+
+#: inc/class-strings.php:273
+#@ listify
+msgid "Your account"
+msgstr ""
+
+#: inc/class-strings.php:274
+#, php-format
+#@ listify
+msgid "You are currently signed in as %s."
+msgstr ""
+
+#: inc/class-strings.php:275
+#@ listify
+msgid "Sign out"
+msgstr ""
+
+#: inc/class-strings.php:276
+#@ listify
+msgid "Have an account?"
+msgstr ""
+
+#: inc/class-strings.php:277
+#@ listify
+msgid "Sign in"
+msgstr ""
+
+#: inc/class-strings.php:278
+#@ listify
+msgid "optionally"
+msgstr ""
+
+#: inc/class-strings.php:279
+#@ listify
+msgid "You must sign in to create a new listing."
+msgstr ""
+
+#: inc/class-strings.php:280
+#@ listify
+msgid "Your email"
+msgstr ""
+
+#: inc/class-strings.php:281
+#@ listify
+msgid "(optional)"
+msgstr ""
+
+#: inc/class-strings.php:282
+#: inc/template-tags.php:239
+#, php-format
+#@ listify
+msgid "%s ago"
+msgstr ""
+
+#: inc/class-strings.php:283
+#@ listify
+msgid "No more results found."
+msgstr ""
+
+#: inc/class-strings.php:284
+#, php-format
+#@ listify
+msgid "Posted %s ago"
+msgstr ""
+
+#: inc/class-strings.php:285
+#@ listify
+msgid "This position has been filled"
+msgstr ""
+
+#: inc/class-strings.php:286
+#@ listify
+msgid "This listing has expired"
+msgstr ""
+
+#: inc/class-strings.php:287
+#@ listify
+msgid "remove"
+msgstr ""
+
+#: inc/class-strings.php:288
+#@ listify
+msgid "or"
+msgstr ""
+
+#: inc/class-strings.php:289
+#, php-format
+#@ listify
+msgid "Maximum file size: %s."
+msgstr ""
+
+#: inc/class-strings.php:290
+#@ listify
+msgid "Apply using webmail:"
+msgstr ""
+
+#: inc/class-strings.php:291
+#, php-format
+#@ listify
+msgid "Apply for %s"
+msgstr ""
+
+#: inc/class-strings.php:292
+#@ listify
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+
+#: inc/class-strings.php:293
+#@ listify
+msgid "You do not have any active listings."
+msgstr ""
+
+#: inc/class-strings.php:294
+#@ listify
+msgid "Mark not filled"
+msgstr ""
+
+#: inc/class-strings.php:295
+#@ listify
+msgid "Mark filled"
+msgstr ""
+
+#: inc/class-strings.php:296
+#@ listify
+msgid "Relist"
+msgstr ""
+
+#: inc/class-strings.php:297
+#@ listify
+msgid "Keywords"
+msgstr ""
+
+#: inc/class-strings.php:298
+#@ listify
+msgid "Category"
+msgstr ""
+
+#: inc/class-strings.php:299
+#@ listify
+msgid "Any category"
+msgstr ""
+
+#: inc/class-strings.php:300
+#@ listify
+msgid "Company Details"
+msgstr ""
+
+#: inc/class-strings.php:301
+#, php-format
+#@ listify
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+
+#: inc/class-strings.php:302
+#@ listify
+msgid "Draft"
+msgstr ""
+
+#: inc/class-strings.php:304
+#@ listify
+msgid "Pending approval"
+msgstr ""
+
+#: inc/class-strings.php:305
+#@ listify
+msgid "Pending payment"
+msgstr ""
+
+#: inc/class-strings.php:306
+#@ listify
+msgid "Active"
+msgstr ""
+
+#: inc/class-strings.php:307
+#@ listify
+msgid "Reset"
+msgstr ""
+
+#: inc/class-strings.php:308
+#@ listify
+msgid "RSS"
+msgstr ""
+
+#: inc/class-strings.php:309
+#@ listify
+msgid "Your email address isn’t correct."
+msgstr ""
+
+#: inc/class-strings.php:310
+#@ listify
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: inc/class-strings.php:311
+#@ listify
+msgid "Choose a category…"
+msgstr ""
+
+#: inc/class-strings.php:312
+#@ listify
+msgid "Inactive"
+msgstr ""
+
+#: inc/class-strings.php:313
+#, php-format
+#@ listify
+msgid "Application via \\%s\\ listing on %s"
+msgstr ""
+
+#: inc/class-strings.php:314
+#@ listify
+msgid "Anywhere"
+msgstr ""
+
+#: inc/class-strings.php:315
+#@ listify
+msgid "Are you sure you want to delete this listing?"
+msgstr ""
+
+#: inc/class-strings.php:322
+#@ listify
+msgid "Choose some tags, such as required skills available features, for this listing."
+msgstr ""
+
+#: inc/class-strings.php:323
+#@ listify
+msgid "Filter by tag: "
+msgstr ""
+
+#: inc/class-strings.php:332
+#, php-format
+#@ listify
+msgid "Display a list of %s regions."
+msgstr ""
+
+#: inc/class-strings.php:335
+#, php-format
+#@ listify
+msgid "%s listing posted out of %d"
+msgstr ""
+
+#: inc/class-strings.php:336
+#, php-format
+#@ listify
+msgid "%s listings posted out of %d"
+msgstr ""
+
+#: inc/class-strings.php:337
+#, php-format
+#@ listify
+msgid "%s for %d listing"
+msgstr ""
+
+#: inc/class-strings.php:338
+#, php-format
+#@ listify
+msgid "%s for %s listings"
+msgstr ""
+
+#: inc/class-strings.php:339
+#, php-format
+#@ listify
+msgid "%s Package"
+msgstr ""
+
+#: inc/class-strings.php:340
+#, php-format
+#@ listify
+msgid "%s Package Subscription"
+msgstr ""
+
+#: inc/class-strings.php:342
+#, php-format
+#@ listify
+msgid "%s Listing"
+msgstr ""
+
+#: inc/class-strings.php:343
+#, php-format
+#@ listify
+msgid "%s limit"
+msgstr ""
+
+#: inc/class-strings.php:344
+#, php-format
+#@ listify
+msgid "%s duration"
+msgstr ""
+
+#: inc/class-strings.php:345
+#, php-format
+#@ listify
+msgid ""
+"The number of days that the %s\n"
+"\t\t\t\twill be active"
+msgstr ""
+
+#: inc/class-strings.php:347
+#, php-format
+#@ listify
+msgid "Feature %s?"
+msgstr ""
+
+#: inc/class-strings.php:348
+#, php-format
+#@ listify
+msgid ""
+"Feature this %s\n"
+"\t\t\t\t-- it will be styled differently and sticky."
+msgstr ""
+
+#: inc/class-strings.php:350
+#, php-format
+#@ listify
+msgid "My %s packages"
+msgstr ""
+
+#: inc/class-strings.php:351
+#, php-format
+#@ listify
+msgid "%s Remaining"
+msgstr ""
+
+#: inc/class-strings.php:354
+#, php-format
+#@ listify
+msgid "#%d Payment Update"
+msgstr ""
+
+#: inc/class-strings.php:357
+#, php-format
+#@ listify
+msgid "Alert Results Matching \\\"%s\\\""
+msgstr ""
+
+#: inc/class-strings.php:358
+#@ listify
+msgid ""
+"No\n"
+"\t\t\t\tresults were found matching your search. Login to your account to change your alert criteria"
+msgstr ""
+
+#: inc/class-strings.php:361
+#, php-format
+#@ listify
+msgid ""
+"This alert will automatically stop\n"
+"\t\t\t\tsending after %s."
+msgstr ""
+
+#: inc/class-strings.php:364
+#, php-format
+#@ listify
+msgid ""
+"Optionally add a keyword to match %s \n"
+"\t\t\t\tagainst"
+msgstr ""
+
+#: inc/class-strings.php:367
+#, php-format
+#@ listify
+msgid "Any %s type"
+msgstr ""
+
+#: inc/class-strings.php:368
+#, php-format
+#@ listify
+msgid "%s Type:"
+msgstr ""
+
+#: inc/class-strings.php:369
+#, php-format
+#@ listify
+msgid ""
+"Your alerts are\n"
+"\t\t\t\tshown in the table below. The alerts will be sent to %s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:196
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:198
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:199
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:200
+#, php-format
+#@ listify
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:201
+#, php-format
+#@ listify
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:202
+#, php-format
+#@ listify
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:203
+#, php-format
+#@ listify
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:204
+#, php-format
+#@ listify
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:205
+#, php-format
+#@ listify
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:206
+#, php-format
+#@ listify
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:207
+#, php-format
+#@ listify
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:208
+#@ listify
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:209
+#@ listify
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:210
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:211
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:212
+#: inc/class-tgm-plugin-activation.php:1965
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:214
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:215
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:556
+#: inc/class-tgm-plugin-activation.php:2182
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1186
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1189
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1194
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1197
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1197
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1200
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1202
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1304
+#: inc/class-tgm-plugin-activation.php:1412
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1326
+#: inc/class-tgm-plugin-activation.php:1413
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1375
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1391
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1392
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1522
+#@ tgmpa
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1630
+#@ tgmpa
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/class-tgm-plugin-activation.php:1652
+#: inc/class-tgm-plugin-activation.php:213
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:1948
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1949
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1951
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1952
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1953
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1964
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2078
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2079
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2079
+#: inc/class-tgm-plugin-activation.php:2088
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2079
+#: inc/class-tgm-plugin-activation.php:2088
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2080
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2081
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2085
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2086
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2087
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2088
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2089
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2090
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-widget.php:236
+#: inc/widgets/class-widget-home-features.php:64
+#: inc/widgets/class-widget-home-features.php:175
+#@ listify
+msgid "Choose Image"
+msgstr ""
+
+#: inc/class-widgetized-pages.php:23
+#, php-format
+#@ listify
+msgid "Page: %s"
+msgstr ""
+
+#: inc/class-widgetized-pages.php:24
+#, php-format
+#@ listify
+msgid "Widgets that appear on the \"%s\" page."
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:18
+#@ listify
+msgid "General"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:23
+#@ listify
+msgid "Appearance"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:26
+#@ listify
+msgid "Colors & Scheme"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:27
+#@ listify
+msgid ""
+"Choose a color scheme and continue to\n"
+"\t\t\t\t\t\tcustomize based on your brand. Certain schemes use the\n"
+"\t\t\t\t\t\tcolors differently so be sure to experiment!"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:32
+#@ listify
+msgid "Menus & Navigation"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:35
+#@ listify
+msgid "Header & Logo"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:40
+#@ listify
+msgid "Footer Area"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:43
+#@ listify
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:46
+#@ listify
+msgid "As Seen On"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:49
+#@ listify
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:111
+#@ listify
+msgid "Homepage Display"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-as-seen-on.php:20
+#@ listify
+msgid "Logos"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-call-to-action.php:17
+#@ listify
+msgid "Display this section"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-call-to-action.php:28
+#@ listify
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-call-to-action.php:31
+#@ listify
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-call-to-action.php:34
+#@ listify
+msgid "Button Subtext"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:23
+#@ listify
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:28
+#@ listify
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:32
+#@ listify
+msgid "Navigation Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:36
+#@ listify
+msgid "Link Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:40
+#@ listify
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:44
+#@ listify
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:48
+#@ listify
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:52
+#@ listify
+msgid "\"As Seen On\" Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:56
+#@ listify
+msgid "Footer Widgets Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:60
+#@ lisify
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:17
+#: inc/customizer/controls/class-controls-listing-archive.php:33
+#@ listify
+msgid "Display Style"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:20
+#@ listify
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:21
+#@ listify
+msgid "Transparent"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:25
+#@ listify
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-header_image.php:17
+#@ listify
+msgid "Fixed Header"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-labels.php:17
+#@ listify
+msgid "Singular Label"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-labels.php:20
+#@ listify
+msgid "Plural Label"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-labels.php:23
+#@ listify
+msgid "Use \"directory\" submission fields"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-labels.php:28
+#@ listify
+msgid "Use categories only"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-labels.php:30
+#@ listify
+msgid ""
+"Categories will be used to create map markers, and types will\n"
+"\t\t\t\tbe hidden from all other areas. Categories must be enabled in Listings > Settings.\n"
+"\t\t\t\t<br /><br />Refresh this page in your browser after saving."
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:17
+#@ listify
+msgid "Display"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:20
+#@ listify
+msgid "Results Only"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:21
+#@ listify
+msgid "Map + Results"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:25
+#@ listify
+msgid "Map Position"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:28
+#@ listify
+msgid "Side (fixed)"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:29
+#: inc/integrations/facetwp/class-facetwp.php:87
+#@ listify
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:36
+#@ listify
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:37
+#@ listify
+msgid "List"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-listing-archive.php:52
+#: inc/customizer/controls/class-controls-map-behavior.php:64
+#: inc/customizer/controls/class-controls-marker-appearance.php:49
+#@ listify
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:17
+#@ listify
+msgid "Use Clusters"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:21
+#@ listify
+msgid "Cluster Grid Size (px)"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:24
+#@ listify
+msgid "Autofit on load"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:28
+#@ listify
+msgid "Default Center Coordinate"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:31
+#@ listify
+msgid "Default Zoom Level"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:39
+#@ listify
+msgid "Max Zoom Level"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:47
+#@ listify
+msgid "Search Radius Min"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:50
+#@ listify
+msgid "Search Radius Max"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-marker-appearance.php:28
+#, php-format
+#@ listify
+msgid "%s Icon Class"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-marker-appearance.php:33
+#, php-format
+#@ listify
+msgid "%s Marker Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-nav.php:19
+#@ listify
+msgid "Display cart icon"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-nav.php:23
+#@ listify
+msgid "Display search icon"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-nav.php:27
+#@ listify
+msgid "Secondary Mega Menu Taxonomy"
+msgstr ""
+
+#: inc/customizer/helper-functions.php:33
+#@ listify
+msgid "Listing"
+msgstr ""
+
+#: inc/customizer/helper-functions.php:34
+#@ listify
+msgid "Listings"
+msgstr ""
+
+#: inc/customizer/helper-functions.php:57
+#, php-format
+#@ listify
+msgid "Copyright %s &copy; %s. All Rights Reserved"
+msgstr ""
+
+#: inc/extras.php:35
+#, php-format
+#@ listify
+msgid "Page %s"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp-proximity.php:78
+#@ listify
+msgid "Distance"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp-template.php:100
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:814
+#: sidebar-shop-archive.php:19
+#@ listify
+msgid "Toggle Filters"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:83
+#@ listify
+msgid "FacetWP Filter Position"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:86
+#@ listify
+msgid "Side"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:92
+#@ listify
+msgid "FacetWP Filters"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:93
+#@ default
+msgid ""
+"A comma (,) separated list of FacetWP facet slugs. The order they\n"
+"\t\t\tappear here will be the order they appear on your website."
+msgstr ""
+
+#: inc/integrations/facetwp/includes/proximity.php:10
+#@ listify
+msgid "Proximity"
+msgstr ""
+
+#: inc/integrations/facetwp/includes/proximity.php:25
+#@ listify
+msgid "Enter location..."
+msgstr ""
+
+#: inc/integrations/jetpack/class-jetpack-share.php:43
+#@ listify
+msgid "Share"
+msgstr ""
+
+#: inc/integrations/ratings/class-comments.php:11
+#@ listify
+msgid "Newest First"
+msgstr ""
+
+#: inc/integrations/ratings/class-comments.php:12
+#@ listify
+msgid "Oldest First"
+msgstr ""
+
+#: inc/integrations/ratings/class-comments.php:13
+#@ listify
+msgid "Rating (High-Low)"
+msgstr ""
+
+#: inc/integrations/ratings/class-comments.php:14
+#@ listify
+msgid "Rating (Low-High)"
+msgstr ""
+
+#: inc/integrations/ratings/class-ratings.php:53
+#@ listify
+msgid "Your Rating"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce-template.php:92
+#@ listify
+msgid "Item"
+msgid_plural "Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:46
+#@ listify
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:55
+#@ listify
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:71
+#@ listify
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:72
+#@ listify
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:73
+#@ listify
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:74
+#@ listify
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:75
+#@ listify
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:76
+#@ listify
+msgid "GitHub URL"
+msgstr ""
+
+#: inc/integrations/woocommerce/class-woocommerce.php:92
+#: inc/integrations/woocommerce/class-woocommerce.php:95
+#@ listify
+msgid "Biography"
+msgstr ""
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:13
+#@ listify
+msgid "Display the social profiles of the listing author"
+msgstr ""
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:15
+#@ listify
+msgid "Listify - Listing: Social Profiles"
+msgstr ""
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:20
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:22
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:28
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:18
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:18
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:24
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:20
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:20
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:20
+#: inc/widgets/class-widget-ad.php:20
+#: inc/widgets/class-widget-home-feature-callout.php:79
+#: inc/widgets/class-widget-home-features.php:25
+#: inc/widgets/class-widget-home-features.php:165
+#@ listify
+msgid "Title:"
+msgstr ""
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:25
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:29
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:25
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:25
+#: inc/widgets/class-widget-ad.php:25
+#@ listify
+msgid "Icon:"
+msgstr ""
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:13
+#@ listify
+msgid "Display the booking form for the linked bookable product."
+msgstr ""
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:15
+#@ listify
+msgid "Listify - Listing: Bookings"
+msgstr ""
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:46
+#@ listify
+msgid "Book Now"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-walker-category.php:28
+#, php-format
+#@ listify
+msgid "View all listings filed under %s"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-walker-category.php:57
+#, php-format
+#@ listify
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:38
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:55
+#: sidebar-single-job_listing.php:57
+#@ listify
+msgid "Hours of Operation"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:37
+#@ listify
+msgid "Claim Listing"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:40
+#, php-format
+#@ listify
+msgid "Claim \"%s\""
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:55
+#@ listify
+msgid "Claimed:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:57
+#@ listify
+msgid "The owner has been verified"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:16
+#@ listify
+msgid "Labels & Behavior"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:19
+#@ listify
+msgid "Archive Page"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:22
+#@ listify
+msgid "Marker Appearance"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:25
+#@ listify
+msgid "Map Behavior"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:10
+#@ listify
+msgctxt "gallery endpoint slug"
+msgid "gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:168
+#, php-format
+#@ listify
+msgid "%s Gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:194
+#@ listify
+msgid "Manage gallery images"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:195
+#@ listify
+msgid "Clear gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:266
+#: popup-content-single-job_listing-add-photo.php:27
+#@ listify
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:267
+#@ listify
+msgid "Add to gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:268
+#@ listify
+msgid "Delete image"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:270
+#@ listify
+msgid "Select this"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:143
+#@ listify
+msgid "Results"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:158
+#, php-format
+#@ listify
+msgid "Radius: <span class=\"radi\">%s</span> mi"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:234
+#, php-format
+#@ listify
+msgid "within a %d mile radius"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:91
+#@ listify
+msgid "Phone Number"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:104
+#@ listify
+msgid "Company phone"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:114
+#@ listify
+msgid "Cover Image"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:131
+#@ listify
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:296
+#, php-format
+#@ listify
+msgid "%s Archives - Sidebar"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:305
+#, php-format
+#@ listify
+msgid "Single %s - Main Content"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:314
+#, php-format
+#@ listify
+msgid "Single %s - Sidebar"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:368
+#@ listify
+msgid "View All"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:643
+#@ listify
+msgid "Add Photos"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:653
+#@ listify
+msgid "Submit a Review"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:715
+#, php-format
+#@ listify
+msgid "Filter by %s:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:731
+#, php-format
+#@ listify
+msgctxt "search filters submit"
+msgid "Update %s"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:734
+#, php-format
+#@ listify
+msgctxt "search filters submit"
+msgid "Search %s"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:798
+#, php-format
+#@ default
+msgid "<span class=\"results-found\">%s</span> Results Found"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-guestful.php:7
+#@ listify
+msgid "Book with Guestful"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-opentable.php:7
+#@ listify
+msgid "Book with OpenTable"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-resurva.php:7
+#@ listify
+msgid "Book with Resurva"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/templates/form-fields/business-hours-field.php:16
+#@ listify
+msgid "Open"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/templates/form-fields/business-hours-field.php:17
+#@ listify
+msgid "Close"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:13
+#@ listify
+msgid "Display a map and results of listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:15
+#@ listify
+msgid "Listify - Page: Map"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:27
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:23
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:23
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:25
+#: inc/widgets/class-widget-home-features.php:30
+#: inc/widgets/class-widget-home-features.php:183
+#@ listify
+msgid "Description:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:30
+#@ listify
+msgid "Display results"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:38
+#@ listify
+msgid "Number of listings per page:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:13
+#@ listify
+msgid "Display a grid of recent or featured listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:15
+#@ listify
+msgid "Listify - Page: Recent Listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:30
+#@ listify
+msgid "Show only featured listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:38
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:31
+#@ listify
+msgid "Number to show:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:15
+#@ listify
+msgid "Display a search form to search listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:17
+#@ listify
+msgid "Listify - Page: Search Listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:35
+#@ listify
+msgid "Facets:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:98
+#@ listify
+msgid "Search"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:21
+#@ listify
+msgid "Display a tabbed layout of listing types"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:23
+#@ listify
+msgid "Listify - Page: Tabbed Listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:36
+#@ listify
+msgid "Number per tab:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:41
+#@ listify
+msgid "Use Featured listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:44
+#@ listify
+msgid "Types to Feature:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:87
+#@ listify
+msgid "See More"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:10
+#@ listify
+msgid "Display a grid of images for a certain taxonomy"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:12
+#@ listify
+msgid "Listify - Page: Image Grid"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:26
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:45
+#@ listify
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:37
+#@ listify
+msgid "Number of terms to show:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:10
+#@ listify
+msgid "Display lists of listings associated with terms of a given taxonomy."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:12
+#@ listify
+msgid "Listify - Page: Term Lists"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:31
+#@ listify
+msgid "Number per list"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:34
+#@ listify
+msgid "Order By:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:38
+#@ listify
+msgid "Date"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:39
+#@ listify
+msgid "Featured"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:41
+#@ listify
+msgid "ID"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:53
+#@ listify
+msgid "Use only featured listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:124
+#@ listify
+msgid "More"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:13
+#@ listify
+msgid "Display the listing's author"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:15
+#@ listify
+msgid "Listify - Listing: Author"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:20
+#@ listify
+msgid "Descriptor:"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:25
+#@ listify
+msgid "Show biography"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:13
+#@ listify
+msgid "Display the business hours of the listing."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:15
+#@ listify
+msgid "Listify - Listing: Business Hours"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:13
+#@ listify
+msgid "Display the listing comments."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:15
+#@ listify
+msgid "Listify - Listing: Reviews"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:13
+#@ listify
+msgid "Display the listing description."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:15
+#@ listify
+msgid "Listify - Listing: Description"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:13
+#@ listify
+msgid "Display the listing photo gallery."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:15
+#@ listify
+msgid "Listify - Listing: Photo Gallery"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:13
+#@ listify
+msgid "Display the listing location and contact details."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:15
+#@ listify
+msgid "Listify - Listing: Map & Contact Details"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:20
+#@ listify
+msgid "Display map"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:25
+#@ listify
+msgid "Display address"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:30
+#@ listify
+msgid "Display phone number"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:35
+#@ listify
+msgid "Display website"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:17
+#@ listify
+msgid "Display the listing tags."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:19
+#@ listify
+msgid "Listify - Listing: Tags"
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:13
+#@ listify
+msgid "Display the listing video."
+msgstr ""
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:15
+#@ listify
+msgid "Listify - Listing: Video"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products-main.php:13
+#@ listify
+msgid "Display the listings products (main content)"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products-main.php:15
+#@ listify
+msgid "Listify - Listing: Products (Content)"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:13
+#@ listify
+msgid "Display the listings products (sidebar)"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:15
+#@ listify
+msgid "Listify - Listing: Products (Sidebar)"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-reviews/class-wp-job-manager-reviews.php:63
+#, php-format
+#@ listify
+msgid "<span itemprop=\"reviewCount\">%1$d</span> Review"
+msgid_plural ""
+"<span\n"
+"\t\t\t\titemprop=\"reviewCount\">%d</span> Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:13
+#@ listify
+msgid "Display the pricing packages available for listings"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:15
+#@ listify
+msgid "Listify - Page: Pricing Table"
+msgstr ""
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:97
+#@ listify
+msgid "Get Started Now"
+msgstr ""
+
+#: inc/template-tags.php:175
+#@ listify
+msgctxt "noun"
+msgid "Menu"
+msgstr ""
+
+#: inc/template-tags.php:218
+#@ listify
+msgid "Listing Owner"
+msgstr ""
+
+#: inc/template-tags.php:226
+#@ listify
+msgid "<span class=\"ion-edit\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:230
+#@ listify
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:272
+#@ listify
+msgid "Post navigation"
+msgstr ""
+
+#: inc/widgets/class-widget-ad.php:13
+#@ listify
+msgid "Display an advertisement"
+msgstr ""
+
+#: inc/widgets/class-widget-ad.php:15
+#@ listify
+msgid "Listify - Standard: Advertisement"
+msgstr ""
+
+#: inc/widgets/class-widget-ad.php:31
+#@ listify
+msgid "Ad Code:"
+msgstr ""
+
+#: inc/widgets/class-widget-ad.php:36
+#@ listify
+msgid "Remove box around widget"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:13
+#@ listify
+msgid "Display a full-width \"feature\" callout"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:15
+#@ listify
+msgid "Listify - Page: Feature Callout"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:23
+#@ listify
+msgid "Text Align:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:25
+#@ listify
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:26
+#@ listify
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:27
+#@ listify
+msgid "Center (cover only)"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:33
+#@ listify
+msgid "Image Style:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:35
+#@ listify
+msgid "Cover"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:36
+#@ listify
+msgid "Pull Out"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:42
+#@ listify
+msgid "Image Position:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:44
+#@ listify
+msgid "Left Top"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:45
+#@ listify
+msgid "Left Center"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:46
+#@ listify
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:47
+#@ listify
+msgid "Right Top"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:48
+#@ listify
+msgid "Right Center"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:49
+#@ listify
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:50
+#: inc/widgets/class-widget-home-feature-callout.php:53
+#@ listify
+msgid "Center Top"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:51
+#@ listify
+msgid "Center Center"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:52
+#@ listify
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:59
+#@ listify
+msgid "Use transparent overlay"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:64
+#@ listify
+msgid "Add standard spacing above/below widget"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:69
+#@ listify
+msgid "Text Color:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:74
+#@ listify
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:84
+#@ listify
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-feature-callout.php:90
+#@ listify
+msgid "Image:"
+msgstr ""
+
+#: inc/widgets/class-widget-home-features.php:15
+#@ listify
+msgid "Display top features about your site"
+msgstr ""
+
+#: inc/widgets/class-widget-home-features.php:17
+#@ listify
+msgid "Listify - Page: Features"
+msgstr ""
+
+#: inc/widgets/class-widget-home-features.php:65
+#@ listify
+msgid "Use Image"
+msgstr ""
+
+#: inc/widgets/class-widget-home-features.php:150
+#@ listify
+msgid "Add Feature"
+msgstr ""
+
+#: inc/widgets/class-widget-home-features.php:171
+#@ listify
+msgid "Image"
+msgstr ""
+
+#: index.php:19
+#: single.php:12
+#@ listify
+msgctxt "blog page title"
+msgid "Blog"
+msgstr ""
+
+#: page-templates/template-home.php:91
+#@ listify
+msgid "Recent  Listings"
+msgstr ""
+
+#: page-templates/template-home.php:92
+#@ listify
+msgid "Take a look at what's been recently added."
+msgstr ""
+
+#: popup-content-single-job_listing-add-photo.php:11
+#@ listify
+msgid "Upload Images"
+msgstr ""
+
+#: popup-content-single-job_listing-add-photo.php:18
+#@ listify
+msgid "Click to upload..."
+msgstr ""
+
+#: product-searchform.php:11
+#: searchform-header.php:12
+#: searchform.php:11
+#@ listify
+msgid "Search for:"
+msgstr ""
+
+#: sidebar-archive-job_listing.php:17
+#@ listify
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: sidebar-shop-archive.php:27
+#: sidebar-shop.php:21
+#@ listify
+msgid "Products"
+msgstr ""
+
+#: sidebar-single-job_listing.php:25
+#, php-format
+#@ listify
+msgid "%s Owner"
+msgstr ""
+
+#: sidebar-single-job_listing.php:34
+#@ listify
+msgid "Photo Gallery"
+msgstr ""
+
+#: sidebar-single-job_listing.php:46
+#@ listify
+msgid "Listing Information"
+msgstr ""
+
+#: sidebar.php:23
+#@ listify
+msgid "Meta"
+msgstr ""
+
+#: single-job_listing-gallery.php:44
+#@ listify
+msgid "No images found."
+msgstr ""
+

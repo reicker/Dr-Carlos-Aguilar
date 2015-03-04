@@ -1,0 +1,73 @@
+== Changelog ==
+
+= 1.0.1.1: December 22, 2014 =
+
+* Fix: Make the widgetized page resembles standard pages, not homepage.
+
+= 1.0.1: December 22, 2014 =
+
+* New: Any page can be assigned a "Widgetized" page template that will have its unique widgetized area.
+* New: Homepage (Slider) Page template to load a slider at the top of the homepage instead of default functionality.
+* New: Radius searching is now on by default.
+* New: Show a "Book Now" button in the hero when a bookable product is attached.
+* New: If multiple categories are assigned and the same level, output them all.
+* New: Autocomplete searching accepts the same region bias as geocoding.
+* Fix: Make the widget caching unique to the current listing.
+* Fix: Improve Jetpack Subscribe widget styling.
+* Fix: Make "Appearance > Header" reflect reality better.
+* Fix: Don't count replies as ratings.
+* Fix: Output the correct star count on listings.
+* Tweak: WP Job Manager strings mapped to Listify to avoid translation confusion.
+
+= 1.0.0.6: December 9, 2014 =
+
+* Fix: Don't output the header search form path.
+
+= 1.0.0.5: December 9, 2014 =
+
+* New: Add the ability to hide the "Claim Listing" link by marking as claimed.
+* New: Formatted addresses link to Google Maps.
+* New: "Listing" string support for WP Job Manager - Alerts.
+* Fix: Properly check if a day's hours are set to Closed.
+* Fix: Header search form searches listings instead of posts/pages.
+* Fix: Make sure no PHP notices appear when adding new listings with no hours.
+
+= 1.0.0.4: December 4, 2014 =
+
+* New: Option to disable secondary navigation mega menu.
+* Fix: Update tertiary navigation background color for Dark color scheme.
+* Fix: Print WooCommerce notices on all pages.
+* Fix: Update default widgets to better match our demo.
+* Fix: Properly update the amount of listings found.
+* Fix: Update/Search button label based on context.
+* Fix: Use set noun for listing tags slug.
+* Fix: Fix pagination styles for listings when using numbers.
+* Fix: Address widget alignment in IE11.
+* Fix: Login/Register popup submission error handling.
+
+= 1.0.0.3: December 1, 2014 =
+
+* New: Add animated .gif images to setup page.
+* New: Location-based searches can now be keyword based (radius is optional).
+* New: Use the "Primary" menu label to label the mobile menu.
+* New: Link {{account}} avatar to author's public profile page.
+* Fix: PHP 5.2 compatibility with round().
+* Fix: Make sure taxonomy is passed to tag field on submission form.
+* Fix: Round the top corners of blog images
+* Fix: Account for larger headers and navigation items when laying out the page.
+* Tweak: Only redirect to setup guide on brand new installs.
+
+= 1.0.0.2: November 28, 2014 =
+
+* Fix: Make sure page templates load the full size cover image.
+
+= 1.0.0.1: November 25, 2014 =
+
+* Fix: Properly set close (x) button on search overlay in the header.
+* Fix: WP Job Manager - Regions is not a required plugin.
+* Fix: "Features" widget import data type.
+* Fix: On author archives make sure only correct cover images are shown.
+
+= 1.0.0: November 24, 2014 =
+
+First release!
