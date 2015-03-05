@@ -102,7 +102,24 @@ footer {
 	font-size: 10px;
 	font-weight: 100;
 }
-
+/* modal window */
+.cerrar {
+	font-size: 48px;
+	color: #2A307C;
+	padding: 10px 0;
+	text-align: center !important;
+	margin: 0 auto;
+	width: 60px;
+	
+}
+.modal-content {
+	border: none !important;
+}
+.contenidoModal {
+	width: 70%;
+	margin: 0 auto;
+}
+/* ---------  */
 
 
 /* ------------------------------
@@ -124,6 +141,17 @@ footer {
 .activo {
 	border: solid 2px @azul1;
 	padding: 2px 5px;
+}
+a.sliderBtn {
+	border: solid 2px @azul1;
+	padding: 7px 10px;
+	font-size: 16px;
+	.transition(0.2s, ease-out)	
+	&:hover {
+		background: @azul1 !important;
+		color: white !important;
+		
+	}
 }
 .botonInfo {
 	border: solid 2px @azul1;
@@ -158,6 +186,13 @@ footer {
 		text-transform: uppercase;
 		font-family: @roboto;
 		font-weight: 300;
+	}
+}
+#sliderIndex{
+	p {
+		font-size: 18px !important;
+		color: @azul1;
+		
 	}
 }
 

@@ -1,0 +1,123 @@
+/* LayerSlider ray Skin */
+
+
+
+.ls-rayskin {
+}
+
+.ls-rayskin .ls-bottom-nav-wrapper {
+	text-align: center;
+	margin: -28px auto 0px auto;
+	position: relative;
+}
+
+
+
+.ls-rayskin .ls-nav-sides,
+.ls-rayskin .ls-bottom-slidebuttons a,
+.ls-rayskin .ls-nav-prev,
+.ls-rayskin .ls-nav-next,
+.ls-rayskin .ls-nav-start,
+.ls-rayskin .ls-nav-stop {
+	background-image: url(skin.png);
+}
+
+.ls-rayskin .ls-nav-prev {
+	background-position: 0px 0px;
+}
+
+.ls-rayskin .ls-nav-prev:hover {
+	background-position: 0px -75px;
+}
+
+.ls-rayskin .ls-nav-next {
+	background-position: -150px 0px;
+}
+
+.ls-rayskin .ls-nav-next:hover {
+	background-position: -150px -75px;
+}
+
+.ls-rayskin .ls-nav-start {
+	background-position: -300px 0px;
+}
+
+.ls-rayskin .ls-nav-start:hover {
+	background-position: -300px -75px;
+}
+
+.ls-rayskin .ls-nav-stop {
+	background-position: -450px 0px;
+}
+
+.ls-rayskin .ls-nav-stop:hover {
+	background-position: -450px -75px;
+}
+
+.ls-rayskin .ls-bottom-slidebuttons a {
+	background-position: 0px -150px;
+}
+
+.ls-rayskin .ls-bottom-slidebuttons a.ls-nav-active {
+	background-position: -75px -150px;
+}
+
+.ls-rayskin .ls-nav-sideleft {
+	background-position: -150px -150px;
+}
+
+.ls-rayskin .ls-nav-sideright {
+	background-position: -225px -150px;
+}
+
+
+
+.ls-rayskin .ls-nav-prev,
+.ls-rayskin .ls-nav-next {
+	width: 27px;
+	height: 75px;
+	z-index: 10000;
+	top: 50%;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.ls-rayskin .ls-nav-prev {
+	left: 0px;
+}
+
+.ls-rayskin .ls-nav-next {
+	right: 0px;
+}
+
+
+
+.ls-rayskin .ls-bottom-slidebuttons,
+.ls-rayskin .ls-bottom-slidebuttons a,
+.ls-rayskin .ls-nav-start,
+.ls-rayskin .ls-nav-stop,
+.ls-rayskin .ls-bottom-nav-wrapper,
+.ls-rayskin .ls-nav-sides {
+	height: 28px;
+}
+
+.ls-rayskin .ls-bottom-slidebuttons,
+.ls-rayskin .ls-bottom-slidebuttons a,
+.ls-rayskin .ls-nav-start,
+.ls-rayskin .ls-nav-stop,
+.ls-rayskin .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-rayskin .ls-nav-start,
+.ls-rayskin .ls-nav-stop {
+	width: 54px;
+}
+
+.ls-rayskin .ls-bottom-slidebuttons a {
+	width: 18px;
+}
+
+.ls-rayskin .ls-nav-sides {
+	width: 44px;
+}

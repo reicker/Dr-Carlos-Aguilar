@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/slicknav.css">
-        <link rel="stylesheet" href="css/jquery.remodal.css">
+        <link rel="stylesheet" href="css/modal.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -69,18 +69,18 @@
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec</p>
 				</div>
 				<div class="col-md-12 text-center remodal-bg" style="margin-bottom: 40px; margin-top: 30px;">
-					<a class=" show_button botonInfoAz" href="#show">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
+					<a id="demo01" class="botonInfoAz" href="#animatedModal">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
 				</div>
-				<div class="remodal" data-remodal-id="show">
-    <h1>Remodal</h1>
-    <p>
-      Flat, responsive, lightweight, fast, easy customizable modal window plugin
-      with declarative state notation and hash tracking.
-    </p>
-    <br>
-    <a class="remodal-cancel" href="#">Cancel</a>
-    <a class="remodal-confirm" href="#">OK</a>
-	</div>
+				<div id="animatedModal" class="text-center">
+			        <div class="close-animatedModal"> 
+			            <span class="glyphicon glyphicon-remove-circle cerrar" aria-hidden="true"></span>
+			        </div>
+			            
+			        <div class="contenidoModal text-left">
+			               <h1>demo</h1>
+			               <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, unde, voluptate, ducimus, aperiam aspernatur quidem maxime accusamus animi quam quia rerum eum ullam consectetur debitis sed ex omnis voluptates dignissimos.</p>
+			        </div>
+			    </div>
 			</div>
 		
 		</div> 
@@ -119,9 +119,20 @@ de enfermedades cardiovasculares</h1>
     			<h3>Lorem Ipsum</h3>
     			<p>Minima, numquam nesciunt magni consequatur totam sit ullam aliquam aut magnam. Ad iure quidem reiciendis.</p>
     		</div>
-    						<div class="col-md-12 text-center" style="margin-bottom: 40px; margin-top: 30px;">
-					<a href="" class="botonInfoAz">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
-				</div>
+    		<div class="col-md-12 text-center" style="margin-bottom: 40px; margin-top: 30px;">
+					<a id="demo02" class="botonInfoAz" href="#modal-02">Ver tratamientos <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
+			</div>
+				<div id="modal-02">
+			        <div class="close-modal-02"> 
+			            <span class="glyphicon glyphicon-remove-circle cerrar" aria-hidden="true"></span>
+			        </div>
+			            
+			        <div class="contenidoModal text-left">
+			               <h1>demo</h1>
+			               <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, unde, voluptate, ducimus, aperiam aspernatur quidem maxime accusamus animi quam quia rerum eum ullam consectetur debitis sed ex omnis voluptates dignissimos.</p>
+			        </div>
+			    </div>
+			
     	</div>
     </div>
     
@@ -190,20 +201,27 @@ de tener algun problema articular o venoso</p>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jquery.slicknav.js"></script>
-        <script src="js/jquery.remodal.js"></script>
+        <script src="js/animatedModal.min.js"></script>
+		<script>
+
+            //demo 01
+            $("#demo01").animatedModal({
+	            color: 'rgba(255, 255, 255, 0.95)'
+            });
+
+            //demo 02
+            $("#demo02").animatedModal({
+                modalTarget:'modal-02',
+                color: 'rgba(255, 255, 255, 0.95)'
+            });
+
+        </script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('#menu').slicknav();
 		});
 		</script>
-		<script>
-    window.remodalGlobals = {
-        namespace: "modal",
-        defaults: {
-            hashTracking: false
-        }
-    };
-		</script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
