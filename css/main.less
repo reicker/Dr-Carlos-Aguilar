@@ -61,10 +61,10 @@ header {
 	margin-bottom: 30px;
 	color: @azul1;
 }
-#menu {
+#menu2 {
 	li {
 		font-size: 18px;
-		margin-left: 10px;
+		margin-left: 5px;
 		a {
 			font-weight: 700;
 			color: @azul1 !important;
@@ -73,6 +73,12 @@ header {
 				border-bottom: 2px solid @azul1;
 
 			}
+		}
+	}
+	.dropdown{
+		ul {
+			background: rgba(255, 255, 255, 0.90);
+			border: none;
 		}
 	}
 }
@@ -161,8 +167,21 @@ a.sliderBtn {
 .botonInfoAz {
 	background: @azul1;
 	padding: 13px 20px;
+	font-size: 14px;	
 	color: white !important;
 	border-radius: @radius;
+	&:hover{
+		color: white !important;
+	}
+}
+.botonInfoWh {
+	padding: 8px 15px;
+	color: white !important;
+	border: 1px solid white;
+	border-radius: @radius;
+	&:hover{
+		color: white !important;
+	}
 }
 .drBtn {
 	margin-top: 80px;	
@@ -170,10 +189,18 @@ a.sliderBtn {
 	
 }
 
+
 /* ------------------------------
 			index
 ------------------------------ */
-
+.play {
+	color: @azul1;
+	font-size: 86px;	
+}
+.bgWhite{
+	color: white !important;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
 #quote {
 	margin-top: 50px;
 	margin-bottom: 30px;
@@ -181,7 +208,6 @@ a.sliderBtn {
 
 #infoIndex {
 	margin-top: 50px;
-	margin-bottom: 50px;
 	h3 {
 		text-transform: uppercase;
 		font-family: @roboto;
@@ -229,8 +255,14 @@ a.sliderBtn {
 	background-image: url(../img/bg-drcarlosaguilar.jpg);
 	width: 100%;
 }
+#cualidades {
+	margin: 100px 0;	
+}
+.hrCual {
+	margin: 0 auto 10px;
+	width: 70%;
 
-
+}
 #quote {
 	margin-bottom: 80px;
 	p {
@@ -266,6 +298,23 @@ a.sliderBtn {
 }
 
 
+/* ------------------------------
+	 contacto
+------------------------------ */
+#bgContacto {
+	background: url(../img/bg-contacto.jpg) no-repeat center top;
+}
+#contacto {
+	background: white;
+	border-radius: @radius;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.64);
+}
+#infoCont {
+	color: @azul1;
+	margin: 60px 0;		
+}
+
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -274,7 +323,7 @@ a.sliderBtn {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	#menu {
+	#menu2 {
 		li {
 			font-size: 14px;
 			margin-left: 5px;

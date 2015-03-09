@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="css/hover-min.css">
         <link rel='stylesheet' href='layerslider/css/layerslider.css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -29,18 +30,42 @@
 	    		<div class="col-md-3 col-sm-3 "><a href="index.html" target="_self"><img src="img/logo.png" alt="" class="img-responsive"></a></div>
 	    		<div class="col-md-9 col-sm-9">
 		    		<ul id="navTop" class="list-inline text-right">
-		    			<li><strong>Emergencias:</strong> (33) 1234 5678</li>
-		    			<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+		    			<li><strong>Emergencias:</strong> 33 1767 4212</li>
+<!-- 		    			<li><a href="#"><img src="img/twitter.png" alt=""></a></li> -->
 		    			<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
 		    		</ul>
-	    			<nav id="menu" class="text-right">
+	    			<nav id="menu2" class="text-right">
 	    				<ul class="list-inline">
 	    					<li><a href="index.html" target="_self" class="activo">Inicio</a></li>
 	    					<li><a href="drcarlosaguilar.html" target="_self">Sobre Mí</a></li>
-	    					<li><a href="enfermedades.html" target="_self">Enfermedades</a></li>
+	    					<li class="dropdown">
+		                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Enfermedades <b class="caret"></b></a>
+		                        <ul class="dropdown-menu">
+		                            <li><a href="enfermedades-arteriales.html" target="_self">Enfermedades Arteriales</a></li>
+		                            <li><a href="enfermedades-venosas.html" target="_self">Enfermedades Venosas</a></li>
+		                            <li><a href="pie-diabetico.html" target="_self">Píe Diabetico</a></li>
+		                            <li><a href="ultrasonido-doppler.html" target="_self">Ultrasonido Doppler</a></li>
+		                        </ul>
+		                    </li>
 	    					<li><a href="etapas-varices.html" target="_self">Etapas de Varices</a></li>
 	    					<li><a href="/blog/" target="_self">Blog</a></li>
 	    					<li><a href="contacto.html" target="_self">Contacto</a></li>
+	    					
+	    				</ul>
+	    			</nav>
+	    			<nav id="menu" class="text-right hidden-md hidden-sm hidden-lg">
+	    				<ul class="list-inline">
+	    					<li><a href="index.html" target="_self" class="activo">Inicio</a></li>
+	    					<li><a href="drcarlosaguilar.html" target="_self">Sobre Mí</a></li>
+		                            <li><a href="enfermedades-arteriales.html" target="_self">Enfermedades Arteriales</a></li>
+		                            <li><a href="enfermedades-venosas.html" target="_self">Enfermedades Venosas</a></li>
+		                            <li><a href="pie-diabetico.html" target="_self">Píe Diabetico</a></li>
+		                            <li><a href="ultrasonido-doppler.html" target="_self">Ultrasonido Doppler</a></li>
+		                    </li>
+	    					<li><a href="etapas-varices.html" target="_self">Etapas Varices</a></li>
+	    					<li><a href="/blog/" target="_self">Blog</a></li>
+	    					<li><a href="contacto.html" target="_self">Contacto</a></li>
+	    					
 	    				</ul>
 	    			</nav>
 	    		</div>
@@ -54,23 +79,50 @@
 		    <div class="ls-layer" style="background: url(img/slider01.jpg) no-repeat 30% bottom;">
 <strong></strong>		 
 		        <!--LayerSlider sublayers-->
-		       <div class="ls-s4" style="left: 60%; top: 40% !important; width: 70% !important;text-align: right;">
-		       	<h1>El mejor diagnóstico y tratamiento de enfermedades arteriales y venosas</h1>
-		       	<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dicta dolores explicabo dignissimos quidem magnam doloremque unde voluptatum nesciunt itaque?</p>
-		       	<br />	
-		       	<a href="#" class="sliderBtn">m&aacute;s informaci&oacute;n</a>
+		       <div class="ls-s4 text-center" style="left: 50%; top: 40% !important; width: 70% !important;">
+		       	<h1>Solamente lo mejor para tus piernas</h1>
+		       	<p>Este es un ejemplo de como nuestros tratamientos son los mejores para tus piernas</p>
+		       	<br />
+		       	<button type="button" data-toggle="modal" data-target="#myModal" style="background: none; border: none;"><span class="glyphicon glyphicon-play-circle play hvr-grow" aria-hidden="true"></span> <br /> ver video</button>
+				       	<!-- modal video -->
+				       	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-lg">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Reparación de Varices instantanea</h4>
+						      </div>
+						      <div id="videoIndex" class="modal-body">
+						        <iframe width="560" height="315" src="https://www.youtube.com/embed/MZoO8QVMxkk" frameborder="0" allowfullscreen></iframe>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- modal video -->
 		       </div>
 		    </div>
 		    
 		    <!--LayerSlider layer-->
-		    <div class="ls-layer" style="background: url(img/bg-enfermedades.jpg) no-repeat 30% bottom;">
+		    <div class="ls-layer" style="background: url(img/slider02.jpg) no-repeat 30% bottom;">
 <strong></strong>		 
 		        <!--LayerSlider sublayers-->
 		       <div class="ls-s4" style="left: 60%; top: 40% !important; width: 70% !important;text-align: right;">
-		       	<h1>El mejor diagnóstico y tratamiento de enfermedades arteriales y venosas</h1>
+		       	<h1 class="bgWhite">El mejor diagnóstico y tratamiento de enfermedades arteriales y venosas</h1>
+		       	<p class="bgWhite">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dicta dolores explicabo dignissimos quidem magnam doloremque unde voluptatum nesciunt itaque?</p>
+		       	<br />	
+		       	<a href="enfermedades.html" class="sliderBtn hvr-grow">conoce más sobre enfermedades</a>
+		       </div>
+		    </div>
+		    
+		    <!--LayerSlider layer-->
+		    <div class="ls-layer" style="background: url(img/slider03.jpg) no-repeat 30% bottom;">
+<strong></strong>		 
+		        <!--LayerSlider sublayers-->
+		       <div class="ls-s4" style="left: 60%; top: 40% !important; width: 70% !important;text-align: right;">
+		       	<h1>VISITA NUESTRO BLOG</h1>
 		       	<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit dicta dolores explicabo dignissimos quidem magnam doloremque unde voluptatum nesciunt itaque?</p>
 		       	<br />	
-		       	<a href="#" class="sliderBtn">m&aacute;s informaci&oacute;n</a>
+		       	<a href="/blog/" class="sliderBtn hvr-grow">visitar blog</a>
 		       </div>
 		    </div>
 		    
@@ -82,53 +134,42 @@
     		<div id="quote" class="col-md-8 col-md-offset-2 text-center">
     			<h1 class="azul">Calidad y vida en tus piernas</h1>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, impedit, iste, rerum, aliquam dicta dolor nobis sunt blanditiis adipisci voluptate tempora doloremque nisi perspiciatis officiis hic ad sit laboriosam ipsa.</p>
-    			<a id="demo01" href="#animatedModal"  class="activo">hola</a>
-    			<!--DEMO01-->
-    <div id="animatedModal">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-animatedModal"> 
-            <span class="glyphicon glyphicon-remove-circle cerrar" aria-hidden="true"></span>
-        </div>
-            
-        <div class="modal-content">
-                  <!--Your modal content goes here-->
-        </div>
-    </div>
     		</div>
     	</div>
     	<div id="infoIndex"  class="row text-center">
     		<div class="col-md-3 col-sm-6">
-    			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
-    			<h3>Lorem Ipsum</h3>
+    			<a href="enfermedades-arteriales.html" target="_self"><img src="http://placekitten.com/g/150" alt="" class="img-circle hvr-grow"></a>
+    			<h3>Enfermedades Arteriales</h3>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quia excepturi harum aperiam ipsum nam!</p>
     			<br>
-    			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    			<a href="enfermedades-arteriales.html" class="botonInfo hvr-grow-shadow">saber más<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
     		<div class="col-md-3 col-sm-6">
-    			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
-    			<h3>Lorem Ipsum</h3>
+    			<a href="enfermedades-venosas.html" target="_self"><img src="http://placekitten.com/g/150" alt="" class="img-circle hvr-grow"></a>
+    			<h3>Enfermedades Venosas</h3>
     			<p>Consequatur, inventore, quas possimus nemo minima quam nulla voluptatem ab deleniti ipsa! Molestiae, accusantium</p>
     			<br>
-    			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    			<a href="enfermedades-venosas.html" class="botonInfo hvr-grow-shadow">saber más<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
     		<div class="col-md-3 col-sm-6">
-    			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
-    			<h3>Lorem Ipsum</h3>
+    			<a href="pie-diabetico.html" target="_self"><img src="http://placekitten.com/g/150" alt="" class="img-circle hvr-grow"></a>
+    			<h3>Píe <br />Diabetico</h3>
     			<p>Itaque eaque sequi provident rerum reprehenderit asperiores temporibus quaerat aperiam. Enim, quibusdam</p>
     			<br>
-    			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    			<a href="pie-diabetico.html" class="botonInfo hvr-grow-shadow">saber más<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
     		<div class="col-md-3 col-sm-6">
-    			<img src="http://placekitten.com/g/150" alt="" class="img-circle">
-    			<h3>Lorem Ipsum</h3>
+    			<a href="ultrasonido-doppler.html" target="_self"><img src="http://placekitten.com/g/150" alt="" class="img-circle hvr-grow"></a>
+    			<h3>Ultrasonido Doppler</h3>
     			<p>Minima, numquam nesciunt magni consequatur totam sit ullam aliquam aut magnam. Ad iure quidem reiciendis.</p>
     			<br>
-    			<a href="" class="botonInfo">m&aacute;s informaci&oacute;n <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    			<a href="ultrasonido-doppler.html" class="botonInfo hvr-grow-shadow">saber más<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     		</div>
+    		
     	</div>
     </div>
  
-	<div id="datosT">
+	<div id="datosT" style="margin-top: 80px;">
 	    <div class="container">
 		    <div class="row">
 			    <div class="col-md-12">
@@ -156,7 +197,7 @@
     			<h2>Dr. Carlos Aguilar</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, mollitia, perferendis, et similique tenetur delectus harum earum architecto perspiciatis repudiandae repellendus quibusdam rem nobis. Alias, culpa, iusto, ipsam ipsa aliquid eum dolor voluptatibus molestiae ab corporis obcaecati nisi quam quas fugit iure sequi a. Explicabo commodi unde consequuntur cupiditate recusandae.</p>
     			<br>
-    			<a href="" class="botonInfoAz">Conoce al Dr. Carlos Aguilar <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
+    			<a href="" class="botonInfoAz hvr-grow">Conoce al Dr. Carlos Aguilar <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
     		</div>
     	</div>
     </div><!-- /#drInfo -->
@@ -165,25 +206,18 @@
     <footer>
     	<div class="container">
     		<div class="row">
-    			<div id="logoFooter" class="col-md-3 col-sm-6"><img src="img/logoFooter.png" alt="" class="img-responsive"></div>
-    			<div class="col-md-2 col-sm-6">
-    				<h4>Menú</h4>
-    				<ul class="list-unstyled">
-    					<li><a href="index.html" target="_self">Inicio</a></li>
-    					<li><a href="drcarlosaguilar.html" target="_self">Sobre mi</a></li>
-    					<li><a href="enfermedades.html" target="_self">Enfermedades</a></li>
-    					<li><a href="etapas-varices.html" target="_self">Etapas de várices</a></li>
-    					<li><a href="contacto.html" target="_self">Contacto</a></li>
-    				</ul>
-    			</div>
-    			<div class="col-md-4 col-sm-6">
+    			<div id="logoFooter" class="col-md-3 col-sm-4"><img src="img/logoFooter.png" alt="" class="img-responsive"></div>
+
+    			<div class="col-md-4 col-sm-4">
     				<h4>Blog</h4>
     				<p>Si quieres conocer más acerca de los mejores tips, cuidados y tratamientos para cuidar tus piernas solo tienes que</p>
-    				<a href="/blog/" class="botonInfoWh">visitar blog <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    				<br />	
+    				<a href="/blog/" class="botonInfoWh">visitar el blog <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
     			</div>
-    			<div class="col-md-3 col-sm-6">
-    				<h4>Contactanos</h4>
-    				<h3><span class="glyphicon glyphicon-phone fLeft" aria-hidden="true"></span> 33 1234 5678</h3> <br>
+    			<div class="col-md-4 col-sm-4">
+	    			<h4>Haz una cita</h4>
+	    			<p>Realiza una cita por cualquiera de los siguientes métodos</p>
+    				<h3><span class="glyphicon glyphicon-phone fLeft" aria-hidden="true"></span> (33) 1614 0502</h3> <br>
     				<a href="mailto:contacto@drcarlogaguilar.mx"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contacto@drcarlogaguilar.mx</a>
     			</div>
     		</div>
@@ -203,8 +237,15 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
 		<script src="js/jquery.slicknav.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
 		<script src='layerslider/jQuery/jquery-easing-1.3.js'></script>
 		<script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+		<script>
+		  $(document).ready(function(){
+		    // Target your .container, .wrapper, .post, etc.
+		    $("#videoIndex").fitVids();
+		  });
+		</script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('#menu').slicknav();

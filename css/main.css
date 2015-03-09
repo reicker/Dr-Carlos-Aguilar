@@ -53,17 +53,21 @@ header {
   margin-bottom: 30px;
   color: #2a307c;
 }
-#menu li {
+#menu2 li {
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
-#menu li a {
+#menu2 li a {
   font-weight: 700;
   color: #2a307c !important;
 }
-#menu li a:hover {
+#menu2 li a:hover {
   color: #2a307c !important;
   border-bottom: 2px solid #2a307c;
+}
+#menu2 .dropdown ul {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
 }
 footer {
   background: #4b52a2;
@@ -144,8 +148,21 @@ a.sliderBtn {
 .botonInfoAz {
   background: #2a307c;
   padding: 13px 20px;
+  font-size: 14px;
   color: white !important;
   border-radius: 3px;
+}
+.botonInfoAz:hover {
+  color: white !important;
+}
+.botonInfoWh {
+  padding: 8px 15px;
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.botonInfoWh:hover {
+  color: white !important;
 }
 .drBtn {
   margin-top: 80px;
@@ -154,13 +171,20 @@ a.sliderBtn {
 /* ------------------------------
 			index
 ------------------------------ */
+.play {
+  color: #2a307c;
+  font-size: 86px;
+}
+.bgWhite {
+  color: white !important;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
 #quote {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 #infoIndex {
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 #infoIndex h3 {
   text-transform: uppercase;
@@ -203,6 +227,13 @@ a.sliderBtn {
   background-image: url(../img/bg-drcarlosaguilar.jpg);
   width: 100%;
 }
+#cualidades {
+  margin: 100px 0;
+}
+.hrCual {
+  margin: 0 auto 10px;
+  width: 70%;
+}
 #quote {
   margin-bottom: 80px;
 }
@@ -230,18 +261,33 @@ a.sliderBtn {
   background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
 }
+/* ------------------------------
+	 contacto
+------------------------------ */
+#bgContacto {
+  background: url(../img/bg-contacto.jpg) no-repeat center top;
+}
+#contacto {
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.64);
+}
+#infoCont {
+  color: #2a307c;
+  margin: 60px 0;
+}
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  #menu li {
+  #menu2 li {
     font-size: 14px;
     margin-left: 5px;
   }
-  #menu li a {
+  #menu2 li a {
     font-weight: 500;
     color: #2a307c !important;
   }
-  #menu li a:hover {
+  #menu2 li a:hover {
     color: #2a307c !important;
     border-bottom: 2px solid #2a307c;
   }
