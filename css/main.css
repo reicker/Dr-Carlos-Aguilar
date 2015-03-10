@@ -115,6 +115,12 @@ footer h4 {
 /* ------------------------------
 			clases
 ------------------------------ */
+.mt50 {
+  margin-top: 50px;
+}
+.mt100 {
+  margin-top: 100px;
+}
 .mt150 {
   margin-top: 150px;
 }
@@ -130,6 +136,22 @@ footer h4 {
 .activo {
   border: solid 2px #2a307c;
   padding: 2px 5px;
+}
+.adv {
+  border: 2px solid #cd6363 ;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.adv span {
+  font-weight: bold;
+  color: red;
+  font-size: 14px;
+}
+.imgMargin {
+  margin: 10px;
+  border: solid 1px #ececec;
+  padding: 10px;
 }
 a.sliderBtn {
   border: solid 2px #2a307c;
@@ -246,6 +268,7 @@ a.sliderBtn {
 #bg-enfermedades {
   background-image: url(../img/bg-enfermedades.jpg);
   width: 100%;
+  padding-bottom: 50px;
 }
 #datosEnfermedades {
   background-image: url(../img/banner-enfermedades.jpg);
