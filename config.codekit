@@ -24910,6 +24910,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg01small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66596,
+		"inputAbbreviatedPath": "\/img\/bg01small.jpg",
+		"outputAbbreviatedPath": "\/img\/bg01small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24943,6 +24954,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/consultas-de-calidad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4196,
+		"inputAbbreviatedPath": "\/img\/consultas-de-calidad.png",
+		"outputAbbreviatedPath": "\/img\/consultas-de-calidad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/datos01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -24965,6 +24987,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/doppler01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 732297,
+		"inputAbbreviatedPath": "\/img\/doppler01.jpg",
+		"outputAbbreviatedPath": "\/img\/doppler01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/doppler02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.52187e+06,
+		"inputAbbreviatedPath": "\/img\/doppler02.jpg",
+		"outputAbbreviatedPath": "\/img\/doppler02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/doppler03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.30978e+06,
+		"inputAbbreviatedPath": "\/img\/doppler03.jpg",
+		"outputAbbreviatedPath": "\/img\/doppler03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/doppler04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.26034e+06,
+		"inputAbbreviatedPath": "\/img\/doppler04.jpg",
+		"outputAbbreviatedPath": "\/img\/doppler04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dr-carlos-aguilar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78227,
+		"inputAbbreviatedPath": "\/img\/dr-carlos-aguilar.jpg",
+		"outputAbbreviatedPath": "\/img\/dr-carlos-aguilar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dr-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -24972,6 +25049,204 @@
 		"initialSize": 66122,
 		"inputAbbreviatedPath": "\/img\/dr-logo.png",
 		"outputAbbreviatedPath": "\/img\/dr-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedad-arterial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54960,
+		"inputAbbreviatedPath": "\/img\/enfermedad-arterial.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedad-arterial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedad-venosa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59485,
+		"inputAbbreviatedPath": "\/img\/enfermedad-venosa.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedad-venosa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308254,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial01.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial01large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.72153e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial01large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial01large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190055,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial02.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial02large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 812942,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial02large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial02large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268596,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial03.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial03large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51666e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial03large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial03large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34763,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial04.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadarterial04large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172066,
+		"inputAbbreviatedPath": "\/img\/enfermedadarterial04large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadarterial04large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329851,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa01.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa01large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.47202e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa01large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa01large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 436087,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa02.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa02large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.75991e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa02large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa02large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284806,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa03.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa03large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.41214e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa03large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa03large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 419757,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa04.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/enfermedadvenosa04large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92348e+06,
+		"inputAbbreviatedPath": "\/img\/enfermedadvenosa04large.jpg",
+		"outputAbbreviatedPath": "\/img\/enfermedadvenosa04large.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25009,6 +25284,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mejorestratamientos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2291,
+		"inputAbbreviatedPath": "\/img\/mejorestratamientos.png",
+		"outputAbbreviatedPath": "\/img\/mejorestratamientos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pie-diabetico.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45851,
+		"inputAbbreviatedPath": "\/img\/pie-diabetico.jpg",
+		"outputAbbreviatedPath": "\/img\/pie-diabetico.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24092e+06,
+		"inputAbbreviatedPath": "\/img\/piediabetico.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.42468e+06,
+		"inputAbbreviatedPath": "\/img\/piediabetico01.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico01large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289333,
+		"inputAbbreviatedPath": "\/img\/piediabetico01large.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico01large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524123,
+		"inputAbbreviatedPath": "\/img\/piediabetico02.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico02large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.18554e+06,
+		"inputAbbreviatedPath": "\/img\/piediabetico02large.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico02large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634673,
+		"inputAbbreviatedPath": "\/img\/piediabetico03.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico03large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.0184e+06,
+		"inputAbbreviatedPath": "\/img\/piediabetico03large.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico03large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264623,
+		"inputAbbreviatedPath": "\/img\/piediabetico04.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/piediabetico04large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.55951e+06,
+		"inputAbbreviatedPath": "\/img\/piediabetico04large.jpg",
+		"outputAbbreviatedPath": "\/img\/piediabetico04large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/playa.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -25016,6 +25412,17 @@
 		"initialSize": 801732,
 		"inputAbbreviatedPath": "\/img\/playa.jpg",
 		"outputAbbreviatedPath": "\/img\/playa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serviciosdeemergencia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3396,
+		"inputAbbreviatedPath": "\/img\/serviciosdeemergencia.png",
+		"outputAbbreviatedPath": "\/img\/serviciosdeemergencia.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25071,6 +25478,17 @@
 		"initialSize": 680,
 		"inputAbbreviatedPath": "\/img\/twitter.png",
 		"outputAbbreviatedPath": "\/img\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ultrasonido-doppler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62840,
+		"inputAbbreviatedPath": "\/img\/ultrasonido-doppler.jpg",
+		"outputAbbreviatedPath": "\/img\/ultrasonido-doppler.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25443,7 +25861,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Ray",
+"lastSavedByUser": "spoiler",
 "manualImportLinks": {
 	},
 "projectAttributes": {
