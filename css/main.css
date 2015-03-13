@@ -219,6 +219,9 @@ a.sliderBtn {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+.enf {
+  min-height: 400px;
+}
 #sliderIndex p {
   font-size: 18px !important;
   color: #2a307c;
@@ -233,20 +236,18 @@ a.sliderBtn {
   margin-top: 5px;
 }
 #datos {
-  background: url(../img/playa.jpg) no-repeat center top;
   margin-bottom: 50px;
-  height: 350px;
-  padding: 20px 0;
   border-bottom: 6px solid #2a307c;
-}
-#datos img {
-  margin-top: 15%;
+  /*
+	img {
+		margin-top: 15%;
+	}
+*/
 }
 .datosText {
   font-size: 32px;
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
-  margin-top: 10%;
 }
 #drInfo p {
   font-size: 16px;
