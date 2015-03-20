@@ -370,5 +370,8 @@ a.sliderBtn {
     width: 100%;
     padding-bottom: 50px;
   }
+  .mt-100xs {
+    top: 0% !important;
+  }
 }
 /* Custom, iPhone Retina */
