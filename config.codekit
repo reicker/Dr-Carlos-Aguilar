@@ -25046,9 +25046,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 78227,
+		"initialSize": 191115,
 		"inputAbbreviatedPath": "\/img\/dr-carlos-aguilar.jpg",
 		"outputAbbreviatedPath": "\/img\/dr-carlos-aguilar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dr-carlos-aguilar01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78227,
+		"inputAbbreviatedPath": "\/img\/dr-carlos-aguilar01.jpg",
+		"outputAbbreviatedPath": "\/img\/dr-carlos-aguilar01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25302,6 +25313,17 @@
 		"initialSize": 2291,
 		"inputAbbreviatedPath": "\/img\/mejorestratamientos.png",
 		"outputAbbreviatedPath": "\/img\/mejorestratamientos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pie-diabetico.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16163,
+		"inputAbbreviatedPath": "\/img\/pie-diabetico.jpg",
+		"outputAbbreviatedPath": "\/img\/pie-diabetico.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
