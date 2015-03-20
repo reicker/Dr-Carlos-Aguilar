@@ -258,6 +258,7 @@ a.sliderBtn {
 #bg {
   background: url(../img/bg-drcarlosaguilar.jpg) no-repeat center top;
   width: 100%;
+  margin: 0 !important;
 }
 #cualidades {
   margin: 100px 0;
