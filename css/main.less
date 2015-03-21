@@ -148,6 +148,7 @@ footer {
 }
 .fLeft {
 	float: left;
+	margin: 10px;		
 }
 .fRight {
 	float: right;
@@ -311,7 +312,7 @@ a.sliderBtn {
 /* ------------------------------
 	 enfermedades
 ------------------------------ */
-#bg-arteriales, #bg-ultra {
+#bg-arteriales, #bg-ultra, #bg-enfermedades {
 	background-image: url(../img/bg01.jpg);
 	width: 100%;
 	padding-bottom: 50px;	
@@ -344,7 +345,35 @@ a.sliderBtn {
 	background-image: url(../img/bg-enfermedades.jpg);
 	width: 100%;
 }
-
+#etapas {
+	.thumbnail {
+		border: none;
+	}
+}
+.tituloThumb {
+	h3{
+		color: white !important;
+		padding-top: 5px;	
+		font-size: 36px;
+		margin-bottom: -20px;
+		padding-bottom: 0;			
+	}
+	h4{
+		color: white !important;
+		font-size: 18px !important;	
+		margin-top: 0px;
+		font-weight: lighter;		
+	}
+	background: @azul1;
+	border-radius: 100px;
+	color: white !important;
+	width: 80px;
+	height: 80px;
+	margin: -60px auto 0;
+	z-index: 99;
+	position: relative;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.45);	
+}
 
 /* ------------------------------
 	 contacto
